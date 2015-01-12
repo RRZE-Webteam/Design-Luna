@@ -1,3 +1,5 @@
-Wordpress Theme für die Website des 
-Webkongress Erlangen 2014
-
+Wordpress-Theme für Veranstaltungen:
+- Custom Content Types für Einzelveranstaltungen und Referenten
+- Shortcode für tabellarische Event-Übersicht
+- Optimiert für die Einbindung von Contact Form 7 für das Anmeldeformular
+- Shortcode für Content-Slider
