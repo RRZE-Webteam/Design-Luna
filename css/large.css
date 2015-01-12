@@ -1,0 +1,48 @@
+/**
+ * Luna - Wordpress Event Theme
+ *
+ * Layout Stylesheet Luna
+ *
+ * @author          RRZE-Team, Barbara Bothe
+ * @copyright       Copyright 2014, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    09/2014
+*/
+@media screen and (min-width: 960px) {
+  /*  ------------------------------------------------------
+  SUCHE
+  --------------------------------------------------------*/
+  #suche input#s {
+    width: 60%; }
+
+  #menu {
+    padding-bottom: 0px; }
+
+  #sidebar {
+    background-color: #FFFFFF;
+    display: block;
+    float: right;
+    width: 20%;
+    position: static;
+    border-top: none;
+    height: auto;
+    padding: 0;
+    overflow-y: auto; }
+
+  #content {
+    padding: 0 30px 30px; }
+
+  /*  ------------------------------------------------------
+  MAIN
+  --------------------------------------------------------*/
+  #main {
+    padding-top: 30px; }
+
+  /*  ------------------------------------------------------
+  MAIN - BEREICHSMENUE
+  --------------------------------------------------------*/
+  ul#navigation li a {
+    padding: 10px 5px; } }

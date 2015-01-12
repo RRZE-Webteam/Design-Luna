@@ -1,0 +1,108 @@
+@media screen and (max-width: 1090px) {
+div#kopf div#logo{width:300px;}
+div#kopf div#logo p {padding:40px;}
+}
+@media screen and (max-width: 960px) {
+body{max-width:960px;overflow:auto;-webkit-text-size-adjust:none;}
+div#seite{background-image:none;padding-left:0;}
+div#kopf{height:135px;background-size:75%;}
+div#kopf div#logo{width:200px;height:135px;padding-left:0;}
+div#kopf div#logo img{height:auto;width:180px;}
+div#kopf div#logo p{background:transparent;width:auto;max-width:200px;right:auto;line-height:110%;padding:20px 10px;}
+div#kopf div#logo p .description{padding-top:5px;}
+div#kopf div#titel{top:190px;padding-right:0;left:12.9em;}
+#kopf #header-box{top:6px;width:110px;height:112px;padding-top:8px;}
+#kopf #header-box .wrapper{height:105px;}
+#kopf #header-box .datum{font-size:16px;}
+#kopf #header-box .titel{font-size:13px;bottom:4px;}
+div#kopf div#suche{width:10.6em;left:10px;top:160px;}
+div#kopf div#suche input#s{width:9.4em;text-overflow:ellipsis;padding:3px;}
+div#kopf div#suche input[type=submit]{padding:2px 3px;}
+div#kopf div#breadcrumb{left:12.9em;top:160px;}
+div#kopf div#sprungmarken a:hover,div#kopf div#sprungmarken a:active,div#kopf div#sprungmarken a:focus{position:absolute;right:0;top:0;height:25px;width:180px;max-width:180px;background:#0094D4;color:#FFF;padding:0 10px;}
+div#main{position:relative;top:50px;padding:0;}
+div#content{padding-top:4em;}
+div#menu{width:10.6em;margin-left:10px;margin-top:5px;}
+div#menu div#bereichsmenu li a,div#menu div#bereichsmenu li span,div#menu div#bereichsmenu li li a,div#menu div#bereichsmenu li li span,div#menu div#bereichsmenu li li li a,div#menu div#bereichsmenu li li li span,div#menu div#bereichsmenu li li li li a,div#menu div#bereichsmenu li li li li span{padding:8px 10px;}
+div#menu div#kurzinfo img{max-width:100%;}
+div#footer{position:relative;top:50px;}
+div#footer div#footerinfos div#tecmenu{width:9em;}
+}
+@media screen and (max-width: 770px) {
+div#kopf{background-image:none;}
+div#content div.feedrahmen .feedeintrag{float:none;width:100%!important;clear:both;}
+div#kopf div#logo p{font-size:1.3em;}
+div#kopf div#logo{width:50%;background-position:10px center;}
+#kopf #header-box{top:0;right:0;height:135px;width:45%;background:none;padding:0;}
+#kopf #header-box .wrapper{height:115px;padding:10px;}
+#kopf #header-box .datum{font-size:20px;left:10px;}
+#kopf #header-box .titel{font-size:.9em;right:10px;bottom:10px;}
+}
+@media screen and (max-width: 570px) {
+div#kopf div#logo p{font-size:1.2em;}
+}
+@media screen and (max-width: 480px) {
+body{max-width:480px;overflow:auto;-webkit-text-size-adjust:none;}
+div#seite{min-width:0;border-width:0;}
+img{max-width:100%;height:auto;}
+div#kopf{padding-bottom:0;min-width:0;position:relative;background-image:none;height:auto;border-bottom:none!important;}
+div#kopf div#logo{position:relative;height:120px;min-height:109px;border-bottom:3px solid #66B32D;padding:0 10px 0 0;}
+div#kopf div#logo img{max-height:75px;max-width:90%;width:auto;margin:0;}
+div#kopf div#logo p{display:block;width:100%;max-width:100%;height:auto;top:0;font-size:120%;line-height:110%;letter-spacing:0;text-align:left;padding:15px 5px 5px 10px;}
+div#kopf div#logo p a{text-decoration:none;}
+#kopf #header-box{width:50%;height:120px;border-bottom:3px solid #66B32D;}
+#kopf #header-box .wrapper{height:100px;}
+#kopf #header-box .datum{font-size:18px;margin-bottom:10px;}
+#kopf #header-box .titel{position:static;}
+div#kopf div#titel{position:relative;top:0;left:0;}
+div#kopf div#titel h1{font-size:1.1em;font-weight:700;line-height:130%;margin:15px 0 10px 10px;}
+div#kopf div#suche{position:relative;top:inherit;right:inherit;bottom:inherit;left:inherit;text-align:right;background-color:transparent;width:90%;max-width:90%;margin:10px auto;padding:0 10px;}
+div#kopf div#suche p{white-space:nowrap;}
+div#kopf div#suche input#s{width:70%;text-overflow:ellipsis;float:none;display:inline-block;}
+div#kopf div#suche input[type=submit]{width:20%;float:none;display:inline-block;}
+div#kopf div#sprungmarken{top:auto;right:auto;bottom:auto;left:auto;display:block;position:relative;text-align:center;font-size:1em;border:0;padding:0;}
+div#kopf div#sprungmarken a:link,div#kopf div#sprungmarken a:visited{text-decoration:none;color:#036;height:auto;position:relative;width:100%;font-size:1em;top:inherit;right:inherit;border-bottom:1px solid #DDD;background-color:#eee;max-width:none;padding:3px 0;}
+div#kopf div#sprungmarken li a:hover,div#kopf div#sprungmarken li a:focus{height:auto;position:relative;width:100%;font-size:1em;top:inherit;right:inherit;background-color:#A4ABB3;color:#FFF;text-decoration:none;border-bottom:1px solid #fff;overflow:auto;max-width:none;text-align:center;padding:3px 0;}
+div#kopf div#hauptmenu{height:auto;background:none;border:none;padding:0;}
+div#kopf div#hauptmenu ul{min-width:0;width:auto;margin-top:1px;padding:10px 0 0;}
+div#kopf div#hauptmenu ul li{display:block;list-style-image:none;padding:0;}
+div#kopf div#hauptmenu ul li a:link,div#kopf div#hauptmenu ul li a:visited,div#kopf div#hauptmenu ul li span{width:100%;text-align:center;background-color:#f7f8f9;color:#036;display:block;float:left;border-bottom:1px solid #036;margin:0;padding:7px 0;}
+div#kopf div#hauptmenu ul li a:hover{background-color:#A4ABB3;color:#FFF;text-decoration:none;border-bottom:1px solid #fff;}
+div#main{top:10px;border:0;min-height:0;background:none;padding:0;}
+div#menu{width:100%;display:block;clear:both;padding-top:10px;position:static;padding-bottom:0;margin:0;}
+div#menu div#bereichsmenu{width:100%;margin-bottom:0;padding-bottom:0;}
+div#menu,div#menu div#bereichsmenu,div#menu li{float:none;border:0;}
+div#menu div#bereichsmenu li a,div#menu div#bereichsmenu li span{line-height:150%;padding:8px 10px;}
+div#content{position:static;overflow:auto;clear:both;min-height:0;margin:0;padding:10px;}
+div#content h2{width:100%;}
+div#content a#contentmarke{display:block;margin-top:10px;}
+div#main div#sidebar{margin:0;padding:10px;}
+div#footer{top:0;margin-left:0;padding:0;}
+div#footer div#footerinfos div#tecmenu{float:none;width:auto;margin-left:0;border-right:none;text-align:right;white-space:normal;line-height:160%;padding:10px;}
+div#footer div#footerinfos div#tecmenu a:hover{font-weight:400;}
+div#footer div#footerinfos div#tecmenu ul li span,div#footer div#footerinfos div#tecmenu ul li a,div#footer div#footerinfos div#tecmenu ul li a:link{padding-left:0;}
+div#footer p.last_modified{font-size:65%;margin-left:10px;display:block;margin-bottom:0;padding:5px;}
+div#footer>p{visibility:hidden;}
+.subcolumns{display:block;width:100%;table-layout:auto;}
+.subcolumns_oldgecko{width:100%;float:none;}
+.c20l,.c25l,.c33l,.c40l,.c38l,.c50l,.c60l,.c62l,.c66l,.c75l,.c80l{float:none;width:100%;}
+.c20r,.c25r,.c33r,.c40r,.c38r,.c50r,.c60r,.c66r,.c62r,.c75r,.c80r{float:none;margin-left:0;width:100%;}
+div#footer div#footerinfos div#zusatzinfo{clear:left;position:static;width:auto;padding:10px!important;}
+div#map{max-width:460px;width:auto;}
+div.box_rechts,div.box_links,div.hinweis_wichtig,div.hinweisrechts,div.hinweis_rechts,div.hinweis,div.baustelle,div.klein_box_rechts,div.klein_box_links,div.klein_box,div.vollbox{float:none;width:auto;margin:20px;}
+div#inhaltsuebersicht ul ul{margin-left:1em;}
+div#footer div#footerinfos div#zusatzinfo p{margin:0 0 .5em;padding:0;}
+div#flaggen img,div.flaggen img,div#languagebar img{height:15px;}
+div#footer div#footerinfos div#flaggen,div#footer div#footerinfos div.flaggen,div#footer div#footerinfos div#languagebar{position:static;right:20px;height:20px;padding-top:10px;text-align:right;}
+div,pre{width:auto;}
+div#kopf div#breadcrumb,div#menu div#kurzinfo,div#footer #footermarke,.infotext,.infologo,.prettyGalleryContainer,.gallery{display:none;}
+.subc,.subcl,.subcr{padding:0;}
+div#inhaltsuebersicht ul,div.feedrahmen .feedeintrag p,div.feedrahmen .feedeintrag h3{margin-left:0;}
+}
+@media screen and (max-width: 280px) {
+div#kopf div#logo p{padding-left:5px;}
+#kopf #header-box{width:auto;background-color:transparent;}
+#kopf #header-box .wrapper{background-color:transparent;padding-right:5px;}
+#kopf #header-box .datum{font-size:16px;background-color:#fff;display:inline-block;}
+#kopf #header-box .titel{background-color:#fff;}
+}

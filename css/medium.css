@@ -1,0 +1,91 @@
+/**
+ * Luna - Wordpress Event Theme
+ *
+ * Layout Stylesheet Luna
+ *
+ * @author          RRZE-Team, Barbara Bothe
+ * @copyright       Copyright 2014, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    09/2014
+*/
+@media screen and (min-width: 600px) {
+  /*  ------------------------------------------------------
+  KOPF
+  --------------------------------------------------------*/
+  #kopf {
+    min-height: 200px; }
+
+  /*  ------------------------------------------------------
+  KOPF MIT LOGO
+  --------------------------------------------------------*/
+  #kopf #logo {
+    padding: 15px;
+    margin: 30px 20px 20px; }
+    #kopf #logo img {
+      float: left;
+      margin-right: 15px;
+      max-height: none; }
+
+  #menu {
+    padding-bottom: 300px; }
+
+  #zielgruppen-menue {
+    padding-left: 20px; }
+
+  #content {
+    min-height: 30em;
+    overflow: auto;
+    padding: 0 10px 300px 15px; }
+
+  #sidebar {
+    border-top: 1px solid #ccc;
+    background-color: #FFFFFF;
+    display: block;
+    font-size: .9em;
+    bottom: 0;
+    height: 300px;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 15px 0 10px;
+    position: absolute;
+    width: 97%; }
+
+  /*  ------------------------------------------------------
+  BREADCRUMBS
+  --------------------------------------------------------*/
+  #breadcrumb {
+    white-space: nowrap;
+    padding: 0 10px 10px 0; }
+    #breadcrumb:after {
+      content: ".";
+      clear: both;
+      display: block;
+      visibility: hidden;
+      height: 0px; }
+
+  /*  ------------------------------------------------------
+  MAIN - BEREICHSMENUE
+  --------------------------------------------------------*/
+  #menu {
+    float: left;
+    width: 20%; }
+
+  ul#navigation ul.sub-menu {
+    display: none; }
+
+  /*  ------------------------------------------------------
+  COMLUMNS
+  --------------------------------------------------------*/
+  .column1 {
+    width: 50%;
+    padding: 10px 15px 10px 0;
+    clear: left;
+    float: left; }
+
+  .column2 {
+    width: 50%;
+    padding: 10px 0 10px 15px;
+    float: left; } }

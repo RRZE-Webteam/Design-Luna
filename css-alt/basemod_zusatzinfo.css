@@ -1,0 +1,111 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Basisstylesheet Techfak 2013
+ *
+ * @mod_name        zusatzinfo
+ * @mod_desc        Aktiviert Standard-Styling des Zusatzinfo-Blocks
+ *
+ * @copyright       Copyright 2005-2011, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2013
+ */
+
+
+@media screen, projection
+{
+
+	/*  ------------------------------------------------------
+	FOOTER - FOOTERINFOS - ZUSATZINFO
+	--------------------------------------------------------*/
+	div#footer div#footerinfos div#zusatzinfo {
+		z-index: 1;
+		background-color: transparent;
+		display: block;
+		text-align: left;
+		padding-left: 14em;
+	}
+	
+	div#footer div#footerinfos div#zusatzinfo h2,
+	div#footer div#footerinfos div#zusatzinfo h3,
+	div#footer div#footerinfos div#zusatzinfo h4,
+	div#footer div#footerinfos div#zusatzinfo h5 {
+		margin-top: 0.2em;
+		margin-bottom: 0.5em;
+		font-size: 0.9em;
+		color: #fff;
+		line-height: 130%;
+	}
+	
+	div#footer div#footerinfos div#zusatzinfo h2 a,
+	div#footer div#footerinfos div#zusatzinfo h2 a:link,
+	div#footer div#footerinfos div#zusatzinfo h2 a:visited,
+	div#footer div#footerinfos div#zusatzinfo h3 a,
+	div#footer div#footerinfos div#zusatzinfo h3 a:link,
+	div#footer div#footerinfos div#zusatzinfo h3 a:visited,
+	div#footer div#footerinfos div#zusatzinfo h4 a,
+	div#footer div#footerinfos div#zusatzinfo h4 a:link,
+	div#footer div#footerinfos div#zusatzinfo h4 a:visited,
+	div#footer div#footerinfos div#zusatzinfo h5 a,
+	div#footer div#footerinfos div#zusatzinfo h5 a:link,
+	div#footer div#footerinfos div#zusatzinfo h5 a:visited {
+		color: #fff;
+	}
+	
+	div#footer div#footerinfos div#zusatzinfo p,
+	div#footer div#footerinfos div#zusatzinfo li {
+		color: #fff;
+		font-size: 0.76em;
+		line-height: 130%;
+		margin-bottom: 5px;
+	}
+	
+	div#footer div#footerinfos  div#zusatzinfo a,
+	div#footer div#footerinfos  div#zusatzinfo a:link,
+	div#footer div#footerinfos  div#zusatzinfo a:visited {
+		color: #eeeff1;
+	}
+	
+	div#footer div#footerinfos  div#zusatzinfo a:focus,
+	div#footer div#footerinfos  div#zusatzinfo a:active,
+	div#footer div#footerinfos  div#zusatzinfo a:hover {
+		color: #fff;
+	}
+	
+	div#footer div#footerinfos  div#zusatzinfo ul {
+		margin-bottom: 1em;
+	} 
+		
+	div#footer div#footerinfos div#zusatzinfo p img {
+		float: none;
+	}
+	
+	div#footer div#footerinfos div#zusatzinfo p.skip {
+		position: absolute;
+		left:-3000px;
+		top:-3000px;
+		width: 1px;
+	}
+		
+}
+
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  960px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 960px) {
+    
+    div#footer div#footerinfos div#zusatzinfo {
+    	padding-left: 10.6em;
+	padding-right: 10px;
+    }
+    
+    div#footer div#footerinfos div#flaggen, 
+    div#footer div#footerinfos div.flaggen, 
+    div#footer div#footerinfos div#languagebar {
+    	top: 170px;
+    }
+    
+}

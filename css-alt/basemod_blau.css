@@ -1,0 +1,83 @@
+@media screen, projection {
+
+    div#kopf {
+	border-bottom: 3px solid #0094D4;
+    }
+
+    #kopf #header-box .jahr {
+	color: #0094D4;
+    }
+
+    /* Navigation erste Ebene */
+    ul#navigation li a {
+	border-left: 3px solid #1559a6;
+	border-bottom: 1px solid #1559a6;
+    }
+    ul#navigation li a:hover,
+    ul#navigation li a:focus,
+    ul#navigation li a:active,
+    ul#navigation li.current-page-item > a,
+    ul#navigation li.current-menu-item > a,
+    ul#navigation li.current-page-ancestor > a,
+    ul#navigation li.current-menu-ancestor > a  {
+	background: #1559a6;
+    }
+
+    /* Navigation zweite Ebene */
+    ul#navigation ul li a {
+	border-left: 3px solid #1969c4;
+	border-bottom: 1px solid #1969c4;
+    }
+    ul#navigation ul li a:hover,
+    ul#navigation ul li a:focus,
+    ul#navigation ul li a:active,
+    ul#navigation ul li.current-page-item > a,
+    ul#navigation ul li.current-menu-item > a,
+    ul#navigation ul li.current-page-ancestor > a,
+    ul#navigation ul li.current-menu-ancestor > a  {
+	background: #1969c4;
+    }
+
+    /* Navigation dritte Ebene */
+    ul#navigation ul ul li a {
+	border-left-color: #1d79e2;
+	border-bottom-color: #1d79e2;
+    }
+    ul#navigation ul ul li a:hover,
+    ul#navigation ul ul li a:focus,
+    ul#navigation ul ul li a:active,
+    ul#navigation ul ul li.current-page-item > a,
+    ul#navigation ul ul li.current-menu-item > a,
+    ul#navigation ul ul li.current-page-ancestor > a,
+    ul#navigation ul ul li.current-menu-ancestor > a {
+	background: #1d79e2;
+    }
+
+    /* Navigation vierte Ebene */
+    ul#navigation ul ul ul li a {
+	border-left-color: #86b8f0;
+	border-bottom-color: #86b8f0;
+    }
+    ul#navigation ul ul ul li a:hover,
+    ul#navigation ul ul ul li a:focus,
+    ul#navigation ul ul ul li a:active,
+    ul#navigation ul ul ul li.current-page-item > a,
+    ul#navigation ul ul ul li.current-menu-item > a,
+    ul#navigation ul ul ul li.current-page-ancestor > a,
+    ul#navigation ul ul ul li.current-menu-ancestor > a {
+	background: #86b8f0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    div#kopf {
+	border-bottom: none;
+    }
+
+    div#kopf div#logo,
+    div#kopf #header-box {
+	border-bottom: 3px solid #0094D4;
+	}
+}
