@@ -701,25 +701,6 @@ $setoptions = array(
 					'label' => __('Relative path to the registration page', 'luna'),
 					'default' =>  __('registration','luna'),
 					'parent' => 'registration-form'
-				),
-				'csv-export' => array(
-					'type' => 'bool',
-					'title' => __('Save', 'luna'),
-					'label' => __('Save registrations in a CSV file (can be viewed and edited in any spreadsheet program).', 'luna'),
-					'default' => 1,
-					'parent' => 'registration-form'
-				),
-				'csv-file-name' => array(
-					'type' => 'text',
-					'title' => __('File name for export', 'luna'),
-					'label' => 'Without extension.<br />Characters allowed: Lower case characters [0-9], hyphen [-], underscore [_].<br/>No spaces, special characters, other punctuation marks.<br /><strong>Important notice:</strong> Do not change file name after the first registration!',
-					'default' =>  __('my-event','luna'),
-					'parent' => 'registration-form'
-				),
-				'csv-file-description' => array(
-					'type' => 'description',
-					'title' => 'Pfad zur Datei: ' . esc_url( home_url()) . '/wp-content/uploads/[Dateiname].csv',
-					'parent' => 'registration-form'
 				)
 			)
 		),

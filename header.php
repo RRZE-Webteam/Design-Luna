@@ -72,7 +72,7 @@ global $options;
 								<a href="<?php echo home_url('/'); ?>" title="<?php echo $options['default_text_title_home_backlink']; ?>" rel="home" class="logo">
 							<?php } ?>
 							<div class="bloginfo"><h1><?php bloginfo('name'); ?></h1>
-							<p class="description"><?php bloginfo('description'); ?></p></div>
+							<p class="description"><?php echo html_entity_decode(get_bloginfo('description')); ?></p></div>
 							<?php if (!is_home()) { ?> </a>  <?php } ?>
 
 							<?php if ((isset($options['headerbox-datum']) && $options['headerbox-datum'] != '') || (isset($options['headerbox-ort']) && $options['headerbox-ort'] != '')) { ?>

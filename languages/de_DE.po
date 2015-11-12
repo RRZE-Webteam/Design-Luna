@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Luna v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-01-08 10:46:31+0000\n"
+"PO-Revision-Date: 2015-01-12 15:27:59+0000\n"
 "Last-Translator: zo95zofo <barbara.bothe@fau.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -31,12 +31,7 @@ msgstr "Nichts gefunden."
 #: home.php:54
 #@ luna
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
-msgstr ""
-
-#: comments.php:7
-#@ luna
-msgid "Dieser Artikel ist Passwortgesch&uuml;tzt. Bitte gib das Passwort ein um die Kommentare zu sehen."
-msgstr ""
+msgstr "Leider wurden in diesem Archiv keine Artikel gefunden. Vielleicht hilft die Suche nach verwandten Themen."
 
 #: comments.php:67
 #: comments.php:76
@@ -50,116 +45,116 @@ msgstr "Name"
 msgid "Website"
 msgstr "Website"
 
-#: functions.php:132
+#: functions.php:135
 #@ luna
 msgid "Main Menu"
 msgstr "Hauptnavigation"
 
-#: functions.php:133
+#: functions.php:136
 #@ luna
 msgid "Target Menu"
 msgstr "Zielgruppenmen&uuml;"
 
-#: functions.php:134
+#: functions.php:137
 #@ luna
 msgid "Tech Menu (Contact, Imprint etc.)"
 msgstr "Technische Navigation (Kontakt, Impressum etc.)"
 
-#: functions.php:296
-#: functions.php:384
+#: functions.php:299
+#: functions.php:387
 #@ luna
 msgid "Articles of Category "
 msgstr "Artikel der Kategorie "
 
-#: functions.php:349
-#: functions.php:403
+#: functions.php:352
+#: functions.php:406
 #@ luna
 msgid "Search for "
 msgstr "Suche nach "
 
-#: functions.php:351
-#: functions.php:405
+#: functions.php:354
+#: functions.php:408
 #@ luna
 msgid "Articles tagged "
 msgstr "Artikel mit Schlagwort "
 
-#: functions.php:355
-#: functions.php:409
+#: functions.php:358
+#: functions.php:412
 #@ luna
 msgid "Articles by "
 msgstr "Artikel von "
 
-#: functions.php:439
+#: functions.php:442
 #, php-format
 #@ luna
 msgid "Search Results for %s"
 msgstr "Suchergebnisse f&uuml;r %s"
 
-#: functions.php:442
-#: functions.php:459
+#: functions.php:445
+#: functions.php:462
 #, php-format
 #@ luna
 msgid "Page %s"
 msgstr "Seite %s"
 
-#: functions.php:519
+#: functions.php:522
 #, php-format
 #@ luna
 msgid "%s <span class=\"says\">says on</span>"
 msgstr "%s <span class=\"says\">meinte am</span>"
 
-#: functions.php:523
+#: functions.php:526
 #@ luna
 msgid "Comment is waiting for moderation."
 msgstr "Der Kommentar wartet auf die Freischaltung."
 
 #. translators: 1: date, 2: time
-#: functions.php:531
+#: functions.php:534
 #, php-format
 #@ luna
 msgid "%1$s at %2$s"
 msgstr "%1$s um %2$s"
 
-#: functions.php:552
+#: functions.php:555
 #@ luna
 msgid "(Edit)"
 msgstr "(Bearbeiten)"
 
-#: functions.php:552
+#: functions.php:555
 #@ luna
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: functions.php:714
+#: functions.php:706
 #@ luna
 msgid "Published "
 msgstr "Ver&ouml;ffentlicht am"
 
-#: functions.php:730
+#: functions.php:722
 #, php-format
 #@ luna
 msgid " <span class=\"meta-prep-author\">by</span> %1$s "
 msgstr " <span class=\"meta-prep-author\">von</span> %1$s "
 
-#: functions.php:730
+#: functions.php:722
 #, php-format
 #@ luna
 msgid "Article by %s"
 msgstr "Artikel von %s"
 
-#: functions.php:866
-#: functions.php:880
+#: functions.php:858
+#: functions.php:872
 #@ luna
 msgid "No content"
 msgstr "Kein Inhalt"
 
-#: functions.php:1254
+#: functions.php:1246
 #, php-format
 #@ luna
 msgid "Category Archives: %s"
 msgstr "Kategorie-Archiv: %s"
 
-#: functions.php:1256
+#: functions.php:1248
 #, php-format
 #@ luna
 msgid "Tag Archives: %s"
@@ -186,395 +181,136 @@ msgid "Y"
 msgstr "Y"
 
 #: home.php:52
+#: index.php:52
+#: loop.php:11
+#: search.php:81
 #@ luna
 msgid "Nothing found"
 msgstr "Nichts gefunden."
 
-#: index.php:56
-#@ luna
-msgid "Es konnten keine Artikel gefunden werden. Bitte versuchen Sie es nochmal mit einer Suche."
-msgstr ""
-
-#: inc/constants.php:82
+#: inc/constants.php:78
 #@ luna
 msgid "Home"
 msgstr "Startseite"
 
-#: inc/constants.php:83
+#: inc/constants.php:79
 #@ luna
 msgid "Back to Home page"
 msgstr "Zur&uuml;ck zur Startseite"
 
-#: inc/constants.php:210
+#: inc/constants.php:206
 #@ luna
 msgid "Faculties"
 msgstr "Fakultaeten"
 
-#: inc/constants.php:211
+#: inc/constants.php:207
 #@ luna
 msgid "Friedrich-Alexander-Universit&auml;t Erlangen-N&uuml;rnberg"
 msgstr "Friedrich-Alexander-Universit&auml;t Erlangen-N&uuml;rnberg"
 
-#: inc/constants.php:214
+#: inc/constants.php:210
 #@ luna
 msgid "Faculty of Humanities, Social Sciences, and Theology"
 msgstr "Philosophische Fakult&auml;t und Fachbereich Theologie"
 
-#: inc/constants.php:215
+#: inc/constants.php:211
 #@ luna
 msgid "Faculty of Business, Economics, and Law"
 msgstr "Rechts- und Wirtschaftswissenschaftliche Fakult&auml;t"
 
-#: inc/constants.php:217
+#: inc/constants.php:213
 #@ luna
 msgid "Faculty of Sciences"
 msgstr "Naturwissenschaftliche Fakult&auml;t"
 
-#: inc/constants.php:218
+#: inc/constants.php:214
 #@ luna
 msgid "Faculty of Engineering"
 msgstr "Technische Fakult&auml;t"
 
-#: inc/constants.php:221
+#: inc/constants.php:217
 #@ luna
 msgid "RRZE"
 msgstr "RRZE"
 
-#: inc/constants.php:222
+#: inc/constants.php:218
 #@ luna
 msgid "Regional Computing Centre Erlangen"
 msgstr "Regionales Rechenzentrum Erlangen"
 
-#: inc/constants.php:225
+#: inc/constants.php:221
 #@ luna
 msgid "Service Desk"
 msgstr "Service-Theke"
 
-#: inc/constants.php:226
+#: inc/constants.php:222
 #@ luna
 msgid "Information Centre City"
 msgstr "Informationszentrum Innenstadt"
 
-#: inc/constants.php:227
+#: inc/constants.php:223
 #@ luna
 msgid "Information Centre Nuremberg"
 msgstr "Informationszentrum N&uuml;rnberg"
 
-#: inc/constants.php:228
+#: inc/constants.php:224
 #@ luna
 msgid "Information Centre Halbmondstrasse"
 msgstr "Informationszentrum Halbmondstra&szlig;e"
 
-#: inc/constants.php:230
+#: inc/constants.php:226
 #@ luna
 msgid "Video Portal"
 msgstr "Videoportal"
 
-#: inc/constants.php:231
+#: inc/constants.php:227
 #@ luna
 msgid "IDM"
 msgstr "IDM"
 
-#: inc/constants.php:232
+#: inc/constants.php:228
 #@ luna
 msgid "News"
 msgstr "Aktuelle Meldungen"
 
-#: functions.php:1573
-#: inc/constants.php:247
+#: functions.php:1565
+#: inc/constants.php:243
 #@ luna
 msgid "Design"
 msgstr "Design"
 
-#: inc/constants.php:251
+#: inc/constants.php:247
 #: inc/widgets.php:21
 #@ luna
 msgid "Sidebar"
 msgstr "Sidebar"
 
-#: inc/widgets.php:43
-#@ luna
-msgid "Zusatzinfo"
-msgstr ""
-
-#: inc/constants.php:298
+#: inc/constants.php:294
 #@ luna
 msgid "Slider"
 msgstr "Slider"
 
-#: inc/constants.php:725
-#@ luna
-msgid "Anmeldebutton"
-msgstr ""
-
-#: inc/constants.php:322
-#: inc/constants.php:356
+#: inc/constants.php:318
+#: inc/constants.php:352
 #@ luna
 msgid "URL"
 msgstr "URL"
 
-#: inc/constants.php:504
-#@ luna
-msgid "Beitr&auml;ge &uuml;ber ganze Breite"
-msgstr ""
-
-#: inc/constants.php:509
-#@ luna
-msgid "Zahl der Beitr&auml;ge, die &uuml;ber die gesamte Inhaltsbreite gehen."
-msgstr ""
-
-#: inc/constants.php:449
-#: inc/constants.php:556
-#@ luna
-msgid "Beitr&auml;ge &uuml;ber halbe Breite"
-msgstr ""
-
-#: inc/constants.php:454
-#: inc/constants.php:561
-#@ luna
-msgid "Zahl der Beitr&auml;ge, die in Spalten mit je zwei Beitr&auml;gen nebeneinander, angezeigt werden."
-msgstr ""
-
-#: inc/constants.php:461
-#: inc/constants.php:515
-#@ luna
-msgid "L&auml;nge des Teasertextes (Artikelauszug)"
-msgstr ""
-
-#: inc/constants.php:468
-#: inc/constants.php:522
-#: inc/constants.php:575
-#@ luna
-msgid "Titel oben"
-msgstr ""
-
-#: inc/constants.php:523
-#@ luna
-msgid "Titel &uuml;ber Logo/Datumsbox und Text"
-msgstr ""
-
-#: inc/constants.php:429
-#: inc/constants.php:475
-#: inc/constants.php:529
-#: inc/constants.php:582
-#@ luna
-msgid "Symbolbild/Datumsbox"
-msgstr ""
-
-#: inc/constants.php:433
-#: inc/constants.php:479
-#: inc/constants.php:533
-#: inc/constants.php:586
-#@ luna
-msgid "Reihenfolge: Artikelbild, erstes Bild, erstes Video oder Ersatzbild zeigen"
-msgstr ""
-
-#: inc/constants.php:434
-#: inc/constants.php:480
-#: inc/constants.php:534
-#: inc/constants.php:587
-#@ luna
-msgid "Reihenfolge: Erstes Bild, Artikelbild, erstes Video oder Ersatzbild zeigen"
-msgstr ""
-
-#: inc/constants.php:435
-#: inc/constants.php:481
-#: inc/constants.php:535
-#: inc/constants.php:588
-#@ luna
-msgid "Reihenfolge: Erstes Video, Artikelbild, erstes Bild oder Ersatzbild zeigen"
-msgstr ""
-
-#: inc/constants.php:436
-#: inc/constants.php:482
-#: inc/constants.php:536
-#: inc/constants.php:589
-#@ luna
-msgid "Reihenfolge: Erstes Video, erstes Bild, Artikelbild oder Ersatzbild zeigen"
-msgstr ""
-
-#: inc/constants.php:437
-#: inc/constants.php:483
-#: inc/constants.php:537
-#: inc/constants.php:590
-#@ luna
-msgid "Nichts anzeigen"
-msgstr ""
-
-#: inc/constants.php:542
-#: inc/constants.php:595
-#@ luna
-msgid "Flie&szlig;ender Text"
-msgstr ""
-
-#: inc/constants.php:543
-#@ luna
-msgid "Text umflie&szlig;t das Bild"
-msgstr ""
-
-#: inc/constants.php:442
-#: inc/constants.php:488
-#: inc/constants.php:549
-#: inc/constants.php:602
-#@ luna
-msgid "Datumszeile"
-msgstr ""
-
-#: inc/constants.php:443
-#: inc/constants.php:550
-#@ luna
-msgid "Datumszeile vor dem Text, falls keine Datumsbox angezeigt wird"
-msgstr ""
-
-#: inc/constants.php:568
-#@ luna
-msgid "L&auml;nge des Teasertextes"
-msgstr ""
-
-#: inc/constants.php:462
-#: inc/constants.php:569
-#@ luna
-msgid "Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge (Bei Beitr&auml;gen &uuml;ber halbe Breite)."
-msgstr ""
-
-#: inc/constants.php:469
-#: inc/constants.php:576
-#@ luna
-msgid "Titel &uuml;ber Logo/Datumsbox und Text (Bei Beitr&auml;gen &uuml;ber halbe Breite)."
-msgstr ""
-
-#: inc/constants.php:596
-#@ luna
-msgid "Text umflie&szlig;t das Bild (Bei Beitr&auml;gen &uuml;ber halbe Breite)"
-msgstr ""
-
-#: inc/constants.php:489
-#: inc/constants.php:603
-#@ luna
-msgid "Datumszeile vor dem Text, falls keine Datumsbox angezeigt wird (Bei Beitr&auml;gen &uuml;ber halbe Breite)."
-msgstr ""
-
-#: inc/constants.php:496
-#@ luna
-msgid "Indexseiten"
-msgstr ""
-
-#: inc/constants.php:516
-#@ luna
-msgid "Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge"
-msgstr ""
-
-#: inc/constants.php:759
+#: inc/constants.php:727
 #@ luna
 msgid "Social Media"
-msgstr ""
+msgstr "Social Media"
 
 #: inc/custom-post-types.php:21
 #: inc/custom-post-types.php:538
 #@ luna
 msgid "Parent Item:"
-msgstr ""
-
-#: single.php:58
-#@ luna
-msgid "Bearbeiten"
-msgstr ""
-
-#: inc/constants.php:665
-#: inc/custom-post-types.php:293
-#@ luna
-msgid "Datum"
-msgstr ""
-
-#: inc/custom-post-types.php:297
-#@ luna
-msgid "Beginn"
-msgstr ""
-
-#: inc/widgets.php:11
-#@ luna
-msgid "Kurzinfo"
-msgstr ""
-
-#: inc/widgets.php:13
-#@ luna
-msgid "Bereich unterhalb des Menus links"
-msgstr ""
-
-#: inc/widgets.php:23
-#@ luna
-msgid "Klassische Sidebar (rechts)"
-msgstr ""
-
-#: inc/widgets.php:32
-#@ luna
-msgid "Inhaltsinfo"
-msgstr ""
-
-#: inc/widgets.php:34
-#@ luna
-msgid "Feststehender Inhalt vor den eigentlichen Content"
-msgstr ""
-
-#: inc/widgets.php:45
-#@ luna
-msgid "Zusatzinfo im Footer"
-msgstr ""
-
-#: inc/widgets.php:66
-#@ luna
-msgid "FAU  Linkliste"
-msgstr ""
-
-#: inc/widgets.php:66
-#@ luna
-msgid "Linkliste mit verschiedenen Webangeboten des RRZE und der FAU"
-msgstr ""
-
-#: inc/widgets.php:156
-#@ luna
-msgid "Bereich ausw&auml;hlen."
-msgstr ""
+msgstr "Elternelement:"
 
 #: inc/widgets.php:177
 #@ luna
 msgid "Banner/Logo Link"
-msgstr ""
-
-#: inc/widgets.php:177
-#@ luna
-msgid "Schalten von Link mit einem Logo oder Banner"
-msgstr ""
-
-#: inc/widgets.php:195
-#@ luna
-msgid "Titel:"
-msgstr ""
-
-#: inc/widgets.php:202
-#@ luna
-msgid "Ziel-URL:"
-msgstr ""
-
-#: inc/widgets.php:209
-#@ luna
-msgid "Bild-URL:"
-msgstr ""
-
-#: inc/widgets.php:219
-#@ luna
-msgid "Hochladen / Ausw&auml;hlen"
-msgstr ""
-
-#: inc/widgets.php:221
-#@ luna
-msgid "Gebe eine URL zu einem Bild ein oder verwende die Mediathek um es hochzuladen oder um ein vorhandenes Bild auszuw&auml;hlen."
-msgstr ""
-
-#: loop.php:12
-#@ luna
-msgid "Vielleicht hilft eine Suche weiter?"
-msgstr ""
+msgstr "Banner/Logo-Link"
 
 #: loop.php:22
 #: loop.php:52
@@ -588,53 +324,12 @@ msgstr "galerie"
 #, php-format
 #@ luna
 msgid "Permalink to %s"
-msgstr ""
-
-#: loop.php:44
-#, php-format
-#@ luna
-msgid "Diese Galerie enth&auml;lt <a %1$s>%2$s photos</a>."
-msgstr ""
-
-#: loop.php:52
-#@ luna
-msgid "Zeige Artikel aus der Galerie"
-msgstr ""
-
-#: loop.php:52
-#@ luna
-msgid "Mehr Bildergalerien"
-msgstr ""
+msgstr "Permalink zu %s"
 
 #: loop.php:54
 #@ luna
 msgid "1 Comment"
 msgstr "1 Kommentar"
-
-#: search.php:83
-#@ luna
-msgid "Es konnten keine Seiten oder Artikel gefunden werden, die zu der Sucheingabe passten. Bitte versuchen Sie es nochmal mit einer  anderen Suche."
-msgstr ""
-
-#: search.php:89
-#@ luna
-msgid "Alternativ verwenden Sie einen der folgenden Links."
-msgstr ""
-
-#: search.php:94
-#@ luna
-msgid "Archiv nach Monaten"
-msgstr ""
-
-#: search.php:99
-#@ luna
-msgid "Artikel nach Schlagworten"
-msgstr ""
-
-#: search.php:105
-#@ luna
-msgid "&Uuml;bersicht aller Kategorien"
-msgstr ""
 
 #: page.php:18
 #: single-event.php:35
@@ -643,38 +338,6 @@ msgstr ""
 #@ luna
 msgid "Pages:"
 msgstr "Seiten:"
-
-#: single-event.php:63
-#: single-speaker.php:59
-#: single.php:77
-#@ luna
-msgid "Weitere Artikel in diesem Themenkreis:"
-msgstr ""
-
-#: theme-options.php:16
-#@ luna
-msgid "Theme Luna Optionen"
-msgstr ""
-
-#: theme-options.php:53
-#@ luna
-msgid "Konfigurieren"
-msgstr ""
-
-#: theme-options.php:56
-#@ luna
-msgid "Optionen wurden gespeichert."
-msgstr ""
-
-#: theme-options.php:399
-#@ luna
-msgid "Optionen nicht definiert"
-msgstr ""
-
-#: theme-options.php:408
-#@ luna
-msgid "Optionen speichern"
-msgstr ""
 
 #: comments.php:22
 #: comments.php:44
@@ -722,13 +385,14 @@ msgstr "Hinterlassen Sie einen Kommentar"
 msgid "% Comments"
 msgstr "% Kommentare"
 
-#: functions.php:532
+#: functions.php:535
 #: inc/custom-post-types.php:26
 #: inc/custom-post-types.php:543
 #: loop.php:55
 #: page.php:19
 #: single-event.php:44
 #: single-speaker.php:39
+#: single.php:58
 #@ luna
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -763,6 +427,9 @@ msgctxt "Post Type Singular Name"
 msgid "Event"
 msgstr "Veranstaltung"
 
+#: functions.php:1570
+#: inc/constants.php:578
+#: inc/constants.php:595
 #: inc/custom-post-types.php:20
 #@ luna
 msgid "Events"
@@ -857,6 +524,7 @@ msgctxt "Post Type Singular Name"
 msgid "Speaker"
 msgstr "Referent"
 
+#: inc/constants.php:613
 #: inc/custom-post-types.php:537
 #@ luna
 msgid "Speakers"
@@ -937,648 +605,876 @@ msgstr "Referent wurde gespeichert."
 msgid "Event Information"
 msgstr "Veranstaltungs-Informationen"
 
-#: functions.php:1510
+#: functions.php:1502
 #@ luna
 msgid "Please select..."
 msgstr "Bitte w&auml;hlen..."
 
-#: inc/constants.php:453
-#: inc/constants.php:508
-#: inc/constants.php:560
-#@ luna
-msgid "Anzahl"
-msgstr ""
-
-#: inc/constants.php:430
-#: inc/constants.php:530
-#@ luna
-msgid "Links des Textauszuges das Datum, das Artikelbild, ein Bild des Artikels oder ein verlinktes Video anzeigen; Abh&auml;ngig vom Inhalt des Artikels."
-msgstr ""
-
-#: inc/constants.php:476
-#: inc/constants.php:583
-#@ luna
-msgid "Links des Textauszuges das Datum, das Artikelbild, ein Bild des Artikels oder ein verlinktes Video anzeigen; Abh&auml;ngig vom Inhalt des Artikels. (Bei Beitr&auml;gen &uuml;ber halbe Breite)"
-msgstr ""
-
-#: inc/constants.php:500
-#@ luna
-msgid "Einstellungen f&uuml;r Indexseiten (Beitr&auml;ge mit bestimmten Kategorien, Tags, Datum, Autor etc.)"
-msgstr ""
-
-#: functions.php:1578
-#: inc/constants.php:610
-#: inc/constants.php:627
-#@ luna
-msgid "Veranstaltungen"
-msgstr ""
-
-#: inc/constants.php:614
-#@ luna
-msgid "Bezeichnung Veranstaltung"
-msgstr ""
-
-#: inc/constants.php:618
-#: inc/constants.php:636
+#: inc/constants.php:586
+#: inc/constants.php:604
 #@ luna
 msgid "Singular"
-msgstr ""
+msgstr "Singular"
 
-#: inc/constants.php:619
-#: inc/constants.php:626
-#@ luna
-msgid "Beschriftung der Einzelveranstaltungen (z.B. Seminar, Vortrag etc.)"
-msgstr ""
-
-#: inc/constants.php:620
-#@ luna
-msgid "Veranstaltung"
-msgstr ""
-
-#: inc/constants.php:625
-#: inc/constants.php:643
+#: inc/constants.php:593
+#: inc/constants.php:611
 #@ luna
 msgid "Plural"
-msgstr ""
+msgstr "Plural"
 
-#: inc/constants.php:632
-#@ luna
-msgid "Bezeichnung Referent"
-msgstr ""
-
-#: inc/constants.php:637
-#: inc/constants.php:644
-#@ luna
-msgid "Beschriftung der Referenten (z.B. Referent, Dozent, Seminarleiter etc.)"
-msgstr ""
-
-#: inc/constants.php:638
-#: inc/constants.php:693
-#@ luna
-msgid "Referent"
-msgstr ""
-
-#: inc/constants.php:645
-#@ luna
-msgid "Referenten"
-msgstr ""
-
-#: inc/constants.php:650
-#@ luna
-msgid "Bezeichnung Kurzcode"
-msgstr ""
-
-#: inc/constants.php:654
-#@ luna
-msgid "Bezeichnung"
-msgstr ""
-
-#: inc/constants.php:655
-#@ luna
-msgid "Beschriftung des Kurzcodes der Veranstaltung (z.B. Seminar-Nr., ID etc.)"
-msgstr ""
-
-#: inc/constants.php:656
-#@ luna
-msgid "Seminar-Nr."
-msgstr ""
-
-#: inc/constants.php:666
-#@ luna
-msgid "Datum der Veranstaltung anzeigen"
-msgstr ""
-
-#: inc/constants.php:672
-#@ luna
-msgid "Zeit (Beginn)"
-msgstr ""
-
-#: inc/constants.php:673
-#@ luna
-msgid "Uhrzeit: Beginn der Veranstaltung anzeigen"
-msgstr ""
-
-#: inc/constants.php:679
-#@ luna
-msgid "Zeit (Ende)"
-msgstr ""
-
-#: inc/constants.php:680
-#@ luna
-msgid "Uhrzeit: Ende der Veranstaltung anzeigen"
-msgstr ""
-
-#: inc/constants.php:686
-#: inc/custom-post-types.php:108
-#: inc/custom-post-types.php:303
-#@ luna
-msgid "Ort"
-msgstr ""
-
-#: inc/constants.php:687
-#@ luna
-msgid "Ort der Veranstaltung anzeigen"
-msgstr ""
-
-#: inc/constants.php:694
-#@ luna
-msgid "Name des Referenten anzeigen (verlinkt mit der Detailseite des Referenten)"
-msgstr ""
-
-#: inc/constants.php:700
-#@ luna
-msgid "Kurzcode"
-msgstr ""
-
-#: inc/constants.php:701
-#@ luna
-msgid "Kurzcode der Veranstaltung anzeigen"
-msgstr ""
-
-#: inc/constants.php:707
-#@ luna
-msgid "Max. Teilnehmerzahl"
-msgstr ""
-
-#: inc/constants.php:708
-#@ luna
-msgid "Maximale Teilnehmerzahl anzeigen"
-msgstr ""
-
-#: inc/constants.php:714
-#: inc/custom-post-types.php:143
-#@ luna
-msgid "Verf&uuml;gbare Pl&auml;tze"
-msgstr ""
-
-#: inc/constants.php:715
-#@ luna
-msgid "Anzahl der verf&uuml;gbaren Pl&auml;tze anzeigen"
-msgstr ""
-
-#: inc/constants.php:739
-#@ luna
-msgid "Speichern"
-msgstr ""
-
-#: inc/constants.php:740
-#@ luna
-msgid "Anmeldungen in CSV-Datei speichern (kann in Tabellenkalkulation weiterverarbeitet werden)."
-msgstr ""
-
-#: inc/constants.php:748
-#@ luna
-msgid "meine-veranstaltung"
-msgstr ""
-
-#: inc/custom-post-types.php:90
-#@ luna
-msgid "Kurzbezeichnung"
-msgstr ""
-
-#: inc/constants.php:274
+#: inc/constants.php:270
+#: inc/constants.php:633
 #: inc/custom-post-types.php:95
+#: inc/custom-post-types.php:293
 #@ luna
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
-#: inc/custom-post-types.php:100
-#@ luna
-msgid "Zeit - von"
-msgstr ""
-
-#: inc/custom-post-types.php:103
-#@ luna
-msgid "bis"
-msgstr ""
-
-#: inc/custom-post-types.php:137
-#@ luna
-msgid "Maximale Teilnehmerzahl"
-msgstr ""
-
-#: inc/custom-post-types.php:149
-#@ luna
-msgid "Warteliste, wenn ausgebucht"
-msgstr ""
-
-#: inc/custom-post-types.php:155
-#@ luna
-msgid "Geben Sie hier die Webadresse (URL) ein, die zur Aufzeichnung (Videportal) f&uuml;hrt (&quot;http://...&quot;)"
-msgstr ""
-
-#: inc/custom-post-types.php:161
-#@ luna
-msgid "Geben Sie hier die Webadresse (URL) ein, die zu Eventfolien zeigt (&quot;http://...&quot;)"
-msgstr ""
-
-#: inc/custom-post-types.php:300
-#@ luna
-msgid "Ende"
-msgstr ""
-
-#: inc/custom-post-types.php:312
-#@ luna
-msgid "Teilnehmer"
-msgstr ""
-
-#: inc/custom-post-types.php:315
-#@ luna
-msgid "Verf&uuml;gbar"
-msgstr ""
-
-#: inc/custom-post-types.php:515
-#@ luna
-msgid "Es konnten keine Eventinformationen gefunden werden."
-msgstr ""
-
-#: functions.php:1494
+#: functions.php:1486
 #@ luna
 msgctxt "Addition to select list option on registration form"
 msgid "WAITING LIST"
 msgstr "WARTELISTE"
 
-#: functions.php:743
+#: functions.php:735
 #, php-format
 #@ luna
 msgid "<br> Categories: %1$s <br>Tags: %2$s"
 msgstr "<br> Kategorien: %1$s <br>Schlagwörter: %2$s"
 
-#: functions.php:745
+#: functions.php:737
 #, php-format
 #@ luna
 msgid " about %1$s."
 msgstr " unter %1$s."
 
-#: functions.php:763
+#: functions.php:755
 #@ luna
 msgid "Categories: "
 msgstr "Kategorien: "
 
-#: inc/constants.php:34
-#@ luna
-msgid "Your email address will not be published. Required fields are highlighted: <span class=\\\"required\\\">*</span>"
-msgstr ""
-
-#: inc/constants.php:68
+#: inc/constants.php:66
 #@ luna
 msgid "Sticky "
-msgstr ""
+msgstr "Oben gehalten "
 
-#: inc/constants.php:216
-#@ luna
-msgid "Medizinische Fakult&auml;t"
-msgstr ""
-
-#: inc/constants.php:229
+#: inc/constants.php:225
 #@ luna
 msgid "Blog Service"
-msgstr ""
+msgstr "Blog-Service"
 
-#: inc/constants.php:384
-#@ luna
-msgid "Startseite"
-msgstr ""
-
-#: inc/constants.php:661
-#@ luna
-msgid "Felder in der tabellarischen<br />Veranstaltungs&uuml;bersicht"
-msgstr ""
-
-#: inc/constants.php:721
-#@ luna
-msgid "Anmeldeformular"
-msgstr ""
-
-#: inc/constants.php:732
-#@ luna
-msgid "Anmeldeseite"
-msgstr ""
-
-#: inc/constants.php:733
-#@ luna
-msgid "Relativer Pfad zur Anmeldeseite"
-msgstr ""
-
-#: inc/constants.php:734
-#@ luna
-msgid "anmeldung"
-msgstr ""
-
-#: index.php:54
-#: loop.php:11
-#: search.php:81
-#@ luna
-msgid "Nichts gefunden"
-msgstr ""
-
-#: single-event.php:28
-#@ luna
-msgid "Zur Anmeldung"
-msgstr ""
-
-#: inc/constants.php:111
-#: inc/constants.php:777
+#: inc/constants.php:107
+#: inc/constants.php:745
 #@ luna
 msgid "Share on Facebook"
 msgstr "Auf Facebook teilen"
 
-#: inc/constants.php:116
-#: inc/constants.php:786
+#: inc/constants.php:112
+#: inc/constants.php:754
 #@ luna
 msgid "Share on Twitter"
 msgstr "Auf Twitter teilen"
 
-#: inc/constants.php:269
+#: inc/constants.php:265
 #@ luna
 msgid "Logo"
 msgstr "Logo"
 
-#: inc/constants.php:270
+#: inc/constants.php:266
 #@ luna
 msgid "Show Logo in Header Area"
 msgstr "Logo im Header anzeigen"
 
-#: inc/constants.php:299
-#@ luna
-msgid "Slider für Inhaltselemente (z.B. Veranstaltungen oder Referenten) verwenden (siehe Hilfe-Panel)"
-msgstr ""
-
-#: inc/constants.php:304
+#: inc/constants.php:300
 #@ luna
 msgid "Buttons"
 msgstr "Buttons"
 
-#: inc/constants.php:726
-#@ luna
-msgid "Unter jeder Einzelveranstaltung einen Link zur Anmeldeseite anzeigen"
-msgstr ""
-
-#: inc/constants.php:746
-#@ luna
-msgid "Dateiname f&uuml;r Export"
-msgstr ""
-
-#: inc/constants.php:763
+#: inc/constants.php:731
 #@ luna
 msgid "Share Icons in Post Header"
 msgstr "&quot;Teilen&quot;-Icon f&uuml;r einzelne Beitr&auml;ge anzeigen"
 
-#: inc/constants.php:316
-#: inc/constants.php:350
-#: inc/constants.php:767
-#: inc/constants.php:802
+#: inc/constants.php:312
+#: inc/constants.php:346
+#: inc/constants.php:735
+#: inc/constants.php:770
 #@ luna
 msgid "Show"
 msgstr "Anzeigen"
 
-#: inc/constants.php:768
+#: inc/constants.php:736
 #@ luna
 msgid "Show social media share buttons in the header of each post"
 msgstr "&quot;Teilen&quot;-Icon f&uuml;r einzelne Beitr&auml;ge anzeigen"
 
-#: inc/constants.php:774
+#: inc/constants.php:742
 #@ luna
 msgid "Facebook"
 msgstr "Facebook"
 
-#: inc/constants.php:775
+#: inc/constants.php:743
 #@ luna
 msgid "Show \"Share on Facebook\" icon."
 msgstr "&quot;Auf Facebook teilen&quot;-Icon anzeigen"
 
-#: inc/constants.php:783
+#: inc/constants.php:751
 #@ luna
 msgid "Twitter"
 msgstr "Twitter"
 
-#: inc/constants.php:784
+#: inc/constants.php:752
 #@ luna
 msgid "Show \"Share on Twitter\" icon."
 msgstr "&quot;Auf Twitter teilen&quot;-Icon anzeigen"
 
-#: inc/constants.php:792
+#: inc/constants.php:760
 #@ luna
 msgid "Twitter via (optional)"
 msgstr "Twitter via (optional)"
 
-#: inc/constants.php:793
+#: inc/constants.php:761
 #@ luna
 msgid "Your Twitter user name. Appears appended to Tweet text as via @username. The Twitter account may appear in a list of recommended accounts to follow."
 msgstr "Ihr Twitter Benutzername. Erscheint hinter dem Tweet-Text als &quot;via @username&quot;. Dadurch kann Ihr Twitter-Account in der Liste der zum folgen empfohlenen Accounts angezeigt werden."
 
-#: inc/constants.php:798
+#: inc/constants.php:766
 #@ luna
 msgid "Follow Icons in Sidebar"
 msgstr "&quot;Folgen&quot;-Icons in der Sidebar"
 
-#: inc/constants.php:803
+#: inc/constants.php:771
 #@ luna
 msgid "Show social media link icons on top of the sidebar"
 msgstr "Social-Media-Linkicons oben rechts in der Sidebar anzeigen"
 
-#: inc/constants.php:809
+#: inc/constants.php:777
 #@ luna
 msgid "Links"
 msgstr "Links"
 
-#: theme-options.php:190
+#: theme-options.php:191
 #@ luna
 msgid "Upload Logo"
 msgstr "Logo hochladen"
 
-#: theme-options.php:191
+#: theme-options.php:192
 #@ luna
 msgid "Upload or choose a logo image"
 msgstr "Logo hochladen oder ausw&auml;hlen."
 
-#: inc/constants.php:252
+#: inc/constants.php:248
 #@ luna
 msgid "Show second sidebar"
 msgstr "Rechte Sidebar anzeigen"
 
-#: inc/constants.php:257
+#: inc/constants.php:253
+#: inc/widgets.php:11
+#: inc/widgets.php:43
 #@ luna
 msgid "Additional Info"
 msgstr "Zusatzinfo"
 
-#: inc/constants.php:258
+#: inc/constants.php:254
 #@ luna
 msgid "Show additional info area"
 msgstr "Zusatzinfo anzeigen"
 
-#: inc/constants.php:263
+#: inc/constants.php:259
 #@ luna
 msgid "Link Icons"
 msgstr "Linkicons"
 
-#: inc/constants.php:264
+#: inc/constants.php:260
 #@ luna
 msgid "Add link icons"
 msgstr "Automatische Linkicons aktivieren"
 
-#: inc/constants.php:275
+#: inc/constants.php:271
 #@ luna
 msgid "Show event date in header"
 msgstr "Datum der Veranstaltung im Header anzeigen"
 
-#: inc/constants.php:280
+#: inc/constants.php:276
+#: inc/constants.php:654
+#: inc/custom-post-types.php:108
+#: inc/custom-post-types.php:303
 #@ luna
 msgid "Location"
 msgstr "Ort"
 
-#: inc/constants.php:281
+#: inc/constants.php:277
 #@ luna
 msgid "Show event location in header"
 msgstr "Ort der Veranstaltung im Header anzeigen"
 
-#: inc/constants.php:286
+#: inc/constants.php:282
 #@ luna
 msgid "Home page name"
 msgstr "Name Startseite"
 
-#: inc/constants.php:287
+#: inc/constants.php:283
 #@ luna
 msgid "Name of the home page for breadcrumb navigation"
 msgstr "Name der Startseite f&uuml;r die Brotkr&uuml;melnavigation"
 
-#: inc/constants.php:292
+#: inc/constants.php:288
 #@ luna
 msgid "Show authors"
 msgstr "Autoren anzeigen"
 
-#: inc/constants.php:293
+#: inc/constants.php:289
 #@ luna
 msgid "Show link to authors in articles"
 msgstr "Bei der Anzeige von Artikeln den Autoren anzeigen und verlinken."
 
-#: inc/constants.php:308
+#: inc/constants.php:304
 #@ luna
 msgid "Show&nbsp;Buttons"
 msgstr "Buttons&nbsp;anzeigen"
 
-#: inc/constants.php:309
+#: inc/constants.php:305
 #@ luna
 msgid "Display custom buttons on top of the second sidebar"
 msgstr "Rechts oberhalb der Sidebar Buttons anzeigen"
 
-#: inc/constants.php:315
+#: inc/constants.php:311
 #@ luna
 msgid "First&nbsp;Button"
 msgstr "1.&nbsp;Button"
 
-#: inc/constants.php:323
-#: inc/constants.php:357
+#: inc/constants.php:319
+#: inc/constants.php:353
 #@ luna
 msgid "Target URL"
 msgstr "Ziel-URL"
 
-#: inc/constants.php:329
-#: inc/constants.php:330
-#: inc/constants.php:363
-#: inc/constants.php:364
+#: inc/constants.php:325
+#: inc/constants.php:326
+#: inc/constants.php:359
+#: inc/constants.php:360
 #@ luna
 msgid "Button label"
 msgstr "Button-Text"
 
-#: inc/constants.php:336
-#: inc/constants.php:370
+#: inc/constants.php:332
+#: inc/constants.php:366
 #@ luna
 msgid "Color"
 msgstr "Farbe"
 
-#: inc/constants.php:337
-#: inc/constants.php:371
+#: inc/constants.php:333
+#: inc/constants.php:367
 #@ luna
 msgid "Button background color"
 msgstr "Hintergrundfarbe des Buttons"
 
-#: inc/constants.php:340
-#: inc/constants.php:374
+#: inc/constants.php:336
+#: inc/constants.php:370
 #@ luna
 msgid "Grey"
 msgstr "grau"
 
-#: inc/constants.php:341
-#: inc/constants.php:375
+#: inc/constants.php:337
+#: inc/constants.php:371
 #@ luna
 msgid "Yellow"
 msgstr "gelb"
 
-#: inc/constants.php:342
-#: inc/constants.php:376
+#: inc/constants.php:338
+#: inc/constants.php:372
 #@ luna
 msgid "Green"
 msgstr "gr&uuml;n"
 
-#: inc/constants.php:343
-#: inc/constants.php:377
+#: inc/constants.php:339
+#: inc/constants.php:373
 #@ luna
 msgid "Blue"
 msgstr "blau"
 
-#: inc/constants.php:349
+#: inc/constants.php:345
 #@ luna
 msgid "Second&nbsp;Button"
 msgstr "Zweiter&nbsp;Button"
 
-#: inc/constants.php:388
+#: inc/constants.php:384
 #@ luna
 msgid "Home page settings"
 msgstr "Einstellungen f&uuml;r die Darstellung der Beitr&auml;ge auf der Startseite\t"
 
-#: inc/constants.php:392
+#: inc/constants.php:388
 #@ luna
 msgid "Title text length"
 msgstr "Titel: Textl&auml;nge"
 
-#: inc/constants.php:393
+#: inc/constants.php:389
 #@ luna
 msgid "Maximum title length (number of characters)"
 msgstr "Maximale Textl&auml;nge des Titels im Teaser (Anzahl Zeichen)"
 
-#: inc/constants.php:398
+#: inc/constants.php:394
 #@ luna
 msgid "Title words"
 msgstr "Titel: Wortzahl"
 
-#: inc/constants.php:399
+#: inc/constants.php:395
 #@ luna
 msgid "Maximum number of words in title (limited by the title text length)"
 msgstr "Maximale Zahl der Worte im Titel; die maximale Textl&auml;nge begrenzt diesen Wert jedoch."
 
-#: inc/constants.php:404
+#: inc/constants.php:400
+#: inc/constants.php:486
 #@ luna
 msgid "Full width articles"
 msgstr "Beitr&auml;ge &uuml;ber ganze Breite"
 
-#: inc/constants.php:408
+#: inc/constants.php:404
+#: inc/constants.php:442
+#: inc/constants.php:490
+#: inc/constants.php:535
 #@ luna
 msgid "Count"
 msgstr "Anzahl"
 
-#: inc/constants.php:409
+#: inc/constants.php:405
+#: inc/constants.php:491
 #@ luna
 msgid "Number of articles displayed in full width"
 msgstr "Zahl der Beitr&auml;ge, die &uuml;ber die gesamte Inhaltsbreite gehen"
 
-#: inc/constants.php:415
+#: inc/constants.php:411
+#: inc/constants.php:450
+#: inc/constants.php:497
+#: inc/constants.php:543
 #@ luna
 msgid "Teaser length"
 msgstr "L&auml;nge des Teasertextes (Artikelauszug)"
 
-#: inc/constants.php:416
+#: inc/constants.php:412
 #@ luna
 msgid "Maximum teaser length on home page"
 msgstr "Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge auf der Startseite"
 
-#: inc/constants.php:422
+#: inc/constants.php:429
+#: inc/constants.php:468
+#: inc/constants.php:508
+#: inc/constants.php:554
 #@ luna
-msgid "Title on top"
-msgstr "Titel oben"
+msgid "Order: Article image, first image, first video, default image"
+msgstr "Reihenfolge: Artikelbild, erstes Bild, erstes Video oder Ersatzbild zeigen"
 
-#: inc/constants.php:423
+#: inc/constants.php:430
+#: inc/constants.php:469
+#: inc/constants.php:509
+#: inc/constants.php:555
 #@ luna
-msgid "Show title before date, image and text"
-msgstr "Titel &uuml;ber Bild, Datum und Text"
+msgid "Order: First image, article image, first video, default image"
+msgstr "Reihenfolge: Erstes Bild, Artikelbild, erstes Video oder Ersatzbild zeigen"
+
+#: inc/constants.php:431
+#: inc/constants.php:470
+#: inc/constants.php:510
+#: inc/constants.php:556
+#@ luna
+msgid "Order: First video, article image, first image, default image"
+msgstr "Reihenfolge: Erstes Video, Artikelbild, erstes Bild oder Ersatzbild zeigen"
+
+#: inc/constants.php:432
+#: inc/constants.php:471
+#: inc/constants.php:511
+#: inc/constants.php:557
+#@ luna
+msgid "Order: First video, first image, article image, default image"
+msgstr "Reihenfolge: Erstes Video, erstes Bild, Artikelbild oder Ersatzbild zeigen"
+
+#: inc/constants.php:433
+#: inc/constants.php:472
+#: inc/constants.php:512
+#: inc/constants.php:558
+#@ luna
+msgid "No image"
+msgstr "Kein Bild anzeigen"
+
+#: inc/constants.php:438
+#: inc/constants.php:531
+#@ luna
+msgid "Half width articles"
+msgstr "Beitr&auml;ge &uuml;ber halbe Seitenbreite"
+
+#: inc/constants.php:443
+#: inc/constants.php:536
+#@ luna
+msgid "Number of articles displayed in half width"
+msgstr "Zahl der Beitr&auml;ge, die in Spalten mit je zwei Beitr&auml;gen nebeneinander, angezeigt werden"
+
+#: inc/constants.php:451
+#: inc/constants.php:544
+#@ luna
+msgid "Maximum teaser length (half width articles)"
+msgstr "Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge (Bei Beitr&auml;gen &uuml;ber halbe Breite)"
+
+#: inc/constants.php:478
+#@ luna
+msgid "Index pages"
+msgstr "Indexseiten"
+
+#: inc/constants.php:482
+#@ luna
+msgid "Archive page settings (category, tag, date, author etc)"
+msgstr "Einstellungen f&uuml;r Indexseiten (Beitr&auml;ge mit bestimmten Kategorien, Tags, Datum, Autor etc.)"
+
+#: inc/constants.php:498
+#@ luna
+msgid "Maximum teaser length (full width articles)"
+msgstr "Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge (Bei Beitr&auml;gen &uuml;ber ganze Breite)."
+
+#: inc/constants.php:517
+#: inc/constants.php:563
+#@ luna
+msgid "Floating Text"
+msgstr "Flie&szlig;ender Text"
+
+#: inc/constants.php:518
+#: inc/constants.php:564
+#@ luna
+msgid "Text floating around the image"
+msgstr "Text umflie&szlig;t das Bild"
+
+#: inc/constants.php:582
+#@ luna
+msgid "Event label"
+msgstr "Bezeichnung Veranstaltung"
+
+#: inc/constants.php:587
+#: inc/constants.php:594
+#@ luna
+msgid "Denotation of the events (e.g. Workshop, Course, Conference etc)"
+msgstr "Beschriftung der Einzelveranstaltungen (z.B. Seminar, Vortrag etc.)"
+
+#: inc/constants.php:588
+#@ luna
+msgid "Event"
+msgstr "Veranstaltung"
+
+#: inc/constants.php:600
+#@ luna
+msgid "Speaker label"
+msgstr "Bezeichnung Referent"
+
+#: inc/constants.php:605
+#: inc/constants.php:612
+#@ luna
+msgid "Denotation of the speakers (e.g. lecturer, speaker, contributor etc)"
+msgstr "Beschriftung der Referenten (z.B. Referent, Dozent, Seminarleiter etc.)"
+
+#: inc/constants.php:606
+#: inc/constants.php:661
+#@ luna
+msgid "Speaker"
+msgstr "Referent"
+
+#: inc/constants.php:618
+#@ luna
+msgid "Code label"
+msgstr "Bezeichnung Kurzcode"
+
+#: inc/constants.php:622
+#@ luna
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: inc/constants.php:623
+#@ luna
+msgid "Denotation of the event code (e.g. Course Nr, ID etc)"
+msgstr "Beschriftung des Kurzcodes der Veranstaltung (z.B. Seminar-Nr., ID etc.)"
+
+#: inc/constants.php:629
+#@ luna
+msgid "Fields displayed in event overview table"
+msgstr "Felder in der tabellarischen<br />Veranstaltungs&uuml;bersicht"
+
+#: inc/constants.php:634
+#@ luna
+msgid "Show event date"
+msgstr "Datum der Veranstaltung anzeigen"
+
+#: inc/constants.php:640
+#@ luna
+msgid "Start time"
+msgstr "Zeit (Beginn)"
+
+#: inc/constants.php:641
+#@ luna
+msgid "Show start time of the event"
+msgstr "Uhrzeit: Beginn der Veranstaltung anzeigen"
+
+#: inc/constants.php:647
+#@ luna
+msgid "End time"
+msgstr "Zeit (Ende)"
+
+#: inc/constants.php:648
+#@ luna
+msgid "Show end time of the event"
+msgstr "Uhrzeit: Ende der Veranstaltung anzeigen"
+
+#: inc/constants.php:655
+#@ luna
+msgid "Show event location"
+msgstr "Ort der Veranstaltung anzeigen"
+
+#: inc/constants.php:662
+#@ luna
+msgid "Show the speaker&rsquo;s name linked to his single page"
+msgstr "Name des Referenten anzeigen (verlinkt mit der Detailseite des Referenten)"
+
+#: inc/constants.php:668
+#: inc/custom-post-types.php:90
+#@ luna
+msgid "Code"
+msgstr "Kurzcode"
+
+#: inc/constants.php:669
+#@ luna
+msgid "Show event code"
+msgstr "Kurzcode der Veranstaltung anzeigen"
+
+#: inc/constants.php:675
+#: inc/custom-post-types.php:137
+#@ luna
+msgid "Max. number of participants"
+msgstr "Max. Teilnehmerzahl"
+
+#: inc/constants.php:676
+#@ luna
+msgid "Show max. number of participants"
+msgstr "Maximale Teilnehmerzahl anzeigen"
+
+#: inc/constants.php:682
+#: inc/custom-post-types.php:143
+#@ luna
+msgid "Places available"
+msgstr "Verf&uuml;gbare Pl&auml;tze"
+
+#: inc/constants.php:683
+#@ luna
+msgid "Show number of places available"
+msgstr "Anzahl der verf&uuml;gbaren Pl&auml;tze anzeigen"
+
+#: inc/constants.php:689
+#@ luna
+msgid "Registration form"
+msgstr "Anmeldeformular"
+
+#: inc/constants.php:693
+#@ luna
+msgid "Registration button"
+msgstr "Anmeldebutton"
+
+#: inc/constants.php:694
+#@ luna
+msgid "Show registration button on single event view"
+msgstr "Unter jeder Einzelveranstaltung einen Link zur Anmeldeseite anzeigen"
+
+#: inc/constants.php:700
+#@ luna
+msgid "Registration page"
+msgstr "Anmeldeseite"
+
+#: inc/constants.php:701
+#@ luna
+msgid "Relative path to the registration page"
+msgstr "Relativer Pfad zur Anmeldeseite"
+
+#: inc/constants.php:707
+#@ luna
+msgid "Save"
+msgstr "Speichern"
+
+#: inc/constants.php:708
+#@ luna
+msgid "Save registrations in a CSV file (can be viewed and edited in any spreadsheet program)."
+msgstr "Anmeldungen in CSV-Datei speichern (kann in Tabellenkalkulation weiterverarbeitet werden)."
+
+#: inc/constants.php:714
+#@ luna
+msgid "File name for export"
+msgstr "Dateiname f&uuml;r Export"
+
+#: inc/constants.php:418
+#: inc/constants.php:457
+#: inc/constants.php:524
+#: inc/constants.php:570
+#@ luna
+msgid "Date line"
+msgstr "Datumszeile"
+
+#: inc/constants.php:419
+#: inc/constants.php:458
+#: inc/constants.php:525
+#: inc/constants.php:571
+#@ luna
+msgid "Show article date with the teaser"
+msgstr "Datum des Beitrags vor dem Text anzeigen"
+
+#: inc/constants.php:425
+#: inc/constants.php:464
+#: inc/constants.php:504
+#: inc/constants.php:550
+#@ luna
+msgid "Teaser image"
+msgstr "Bild"
+
+#: inc/constants.php:426
+#: inc/constants.php:465
+#: inc/constants.php:505
+#: inc/constants.php:551
+#@ luna
+msgid "Show featured image, first image or first video in article as teaser image."
+msgstr "Links des Textauszuges das Datum, das Artikelbild, ein Bild des Artikels oder ein verlinktes Video anzeigen; Abh&auml;ngig vom Inhalt des Artikels."
+
+#: inc/constants.php:212
+#@ luna
+msgid "Faculty of Medicine"
+msgstr "Medizinische Fakult&auml;t"
+
+#: index.php:54
+#: loop.php:12
+#@ luna
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es konnten keine Artikel gefunden werden. Vielleicht hilft die Suchfunktion weiter?"
+
+#: search.php:83
+#@ luna
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Es konnten keine Seiten oder Artikel gefunden werden, die zu der Sucheingabe passen. Bitte versuchen Sie es nochmal mit einer  anderen Suche."
+
+#: single-event.php:28
+#@ luna
+msgid "Register online"
+msgstr "Zur Anmeldung"
+
+#: inc/custom-post-types.php:297
+#@ luna
+msgid "Start"
+msgstr "Beginn"
+
+#: inc/custom-post-types.php:300
+#@ luna
+msgid "End"
+msgstr "Ende"
+
+#: inc/custom-post-types.php:312
+#@ luna
+msgid "Participants"
+msgstr "Teilnehmer"
+
+#: inc/custom-post-types.php:515
+#@ luna
+msgid "No event information found."
+msgstr "Es konnten keine Eventinformationen gefunden werden."
+
+#: inc/constants.php:380
+#@ luna
+msgid "Home Page"
+msgstr "Startseite"
+
+#: inc/constants.php:624
+#@ luna
+msgid "Seminar Nr"
+msgstr "Seminar-Nr."
+
+#: inc/constants.php:702
+#@ luna
+msgid "registration"
+msgstr "anmeldung"
+
+#: inc/constants.php:716
+#@ luna
+msgid "my-event"
+msgstr "meine-veranstaltung"
+
+#: inc/custom-post-types.php:100
+#@ luna
+msgid "Time - from"
+msgstr "Zeit – von"
+
+#: inc/custom-post-types.php:103
+#@ luna
+msgid "to"
+msgstr "bis"
+
+#: inc/custom-post-types.php:149
+#@ luna
+msgid "Offer waiting list for fully booked events"
+msgstr "Warteliste, wenn ausgebucht"
+
+#: inc/custom-post-types.php:155
+#@ luna
+msgid "Enter URL for video (FAU Video portal): &quot;http://...&quot;"
+msgstr "Geben Sie hier die Webadresse (URL) ein, die zur Aufzeichnung (Videportal) f&uuml;hrt (&quot;http://...&quot;)"
+
+#: inc/custom-post-types.php:161
+#@ luna
+msgid "Enter URL to event presentation slides: &quot;http://...&quot;"
+msgstr "Geben Sie hier die Webadresse (URL) ein, die zu Eventfolien zeigt (&quot;http://...&quot;)"
+
+#: inc/custom-post-types.php:315
+#@ luna
+msgid "Available"
+msgstr "Verf&uuml;gbar"
+
+#: theme-options.php:17
+#@ luna
+msgid "Luna Theme Options"
+msgstr "Luna Theme-Optionen"
+
+#: theme-options.php:54
+#@ luna
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: theme-options.php:57
+#@ luna
+msgid "Options saved"
+msgstr "Optionen wurden gespeichert."
+
+#: theme-options.php:400
+#@ luna
+msgid "Options not set"
+msgstr "Optionen nicht definiert"
+
+#: theme-options.php:409
+#@ luna
+msgid "Save Options"
+msgstr "Optionen speichern"
+
+#: inc/constants.php:34
+#@ luna
+msgid "Your email address will not be published. Required fields are highlighted: "
+msgstr "Ihre E-Mail-Adresse wird nicht ver&ouml;ffentlicht. Pflichtfelder sind markiert: "
+
+#: comments.php:7
+#@ luna
+msgid "This article is password proteced. Please enter the password to view the comments."
+msgstr "This article is password proteced. Please enter the password to view the comments."
+
+#: inc/widgets.php:13
+#@ luna
+msgid "Area below the first sidebar menu"
+msgstr "Bereich unterhalb des Men&uuml;s links"
+
+#: inc/widgets.php:23
+#@ luna
+msgid "Second sidebar"
+msgstr "Rechte Sidebar"
+
+#: inc/widgets.php:32
+#@ luna
+msgid "Content Info"
+msgstr "Inhaltsinfo"
+
+#: inc/widgets.php:34
+#@ luna
+msgid "Fixed content above the main content"
+msgstr "Feststehender Inhalt vor den eigentlichen Content"
+
+#: inc/widgets.php:45
+#@ luna
+msgid "Additional info in footer area"
+msgstr "Zusatzinfo im Footer"
+
+#: inc/widgets.php:66
+#@ luna
+msgid "Link list with RRZE and FAU web services"
+msgstr "Linkliste mit verschiedenen Webangeboten des RRZE und der FAU"
+
+#: inc/widgets.php:156
+#@ luna
+msgid "Choose Area"
+msgstr "Bereich ausw&auml;hlen"
+
+#: inc/widgets.php:177
+#@ luna
+msgid "Add a linked logo or banner"
+msgstr "Logo- oder Bannerlink hinzuf&uuml;gen"
+
+#: inc/widgets.php:195
+#@ luna
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets.php:202
+#@ luna
+msgid "Target URL:"
+msgstr "Ziel-URL:"
+
+#: inc/widgets.php:209
+#@ luna
+msgid "Image URL:"
+msgstr "Bild-URL:"
+
+#: inc/widgets.php:219
+#@ luna
+msgid "Upload / Choose"
+msgstr "Hochladen/Ausw&auml;hlen"
+
+#: inc/widgets.php:221
+#@ luna
+msgid "Add a URL to the image or use the mediathek to upload or choose an image."
+msgstr "Geben Sie eine URL zu einem Bild ein oder verwenden Sie die Mediathek um es hochzuladen oder um ein vorhandenes Bild auszuw&auml;hlen."
+
+#: inc/constants.php:295
+#@ luna
+msgid "Use slider for content types (e.g. articles, events or speakers). See Help panel."
+msgstr "Slider für Inhaltselemente (z.B. Veranstaltungen oder Referenten) verwenden (siehe Hilfe-Panel)"
+
+#: inc/widgets.php:66
+#@ luna
+msgid "FAU  Link List"
+msgstr "FAU-Linkliste"
+
+#: loop.php:44
+#, php-format
+#@ luna
+msgid "This gallery contains <a %1$s>%2$s Fotos</a>."
+msgstr "Diese Galerie enth&auml;lt <a %1$s>%2$s photos</a>."
+
+#: loop.php:52
+#@ luna
+msgid "Show gallery articles"
+msgstr "Zeige Artikel aus der Galerie"
+
+#: loop.php:52
+#@ luna
+msgid "More galleries"
+msgstr "Mehr Bildergalerien"
+
+#: search.php:89
+#@ luna
+msgid "Alternatively you may use one of the following links."
+msgstr "Alternativ verwenden Sie einen der folgenden Links."
+
+#: search.php:94
+#@ luna
+msgid "Monthly Archives"
+msgstr "Archiv nach Monaten"
+
+#: search.php:99
+#@ luna
+msgid "Tag Archives"
+msgstr "Artikel nach Schlagworten"
+
+#: search.php:105
+#@ luna
+msgid "Category List"
+msgstr "&Uuml;bersicht aller Kategorien"
+
+#: single-event.php:63
+#: single-speaker.php:59
+#: single.php:77
+#@ luna
+msgid "Related Articles:"
+msgstr "Weitere Artikel in diesem Themenkreis:"
 

@@ -1488,9 +1488,6 @@ if (!function_exists('luna_comment')) :
 		}
 
 		return $tag;
-		/* echo "<pre>";
-		  print_r($tag);
-		  echo "</pre>"; */
 	}
 
 	add_filter('wpcf7_form_tag', 'luna_add_plugin_list_to_contact_form', 10, 2);
@@ -1505,49 +1502,6 @@ if (!function_exists('luna_comment')) :
 	}
 
 	add_filter('wpcf7_form_elements', 'my_wpcf7_form_elements');
-
-	/**
-	 * Contact Form 7 : Gesendete Daten in CSV-Datei schreiben
-	 * Datei: [Template-Directory]/$options['csv-file-name'].csv
-	 * Bsp:	/wp/wp-content/themes/event-theme/meine-veranstaltung.csv
-	 */
-	add_action("wpcf7_before_send_mail", "wpcf7_write_csv");
-
-	function wpcf7_write_csv($wpcf7_data) {
-		require_once(ABSPATH . '/wp-admin/includes/file.php');
-		global $options;
-		global $wp_filesystem;
-		WP_Filesystem();
-		$submission = WPCF7_Submission::get_instance();
-		if ($submission) {
-			$form_fields = $submission->get_posted_data();
-		}
-		$uploads = wp_upload_dir();
-		$uploads_dir = trailingslashit($uploads['basedir']);
-		$file = $uploads_dir . '/' . $options['csv-file-name'] . '.csv';
-
-		$form_fields = str_replace(array("\r\n", "\r", "\n"), " ", $form_fields);
-		$form_fields = str_replace("\"", "'", $form_fields);
-		$csv_fields = array_slice($form_fields, 4);
-		$csv_line = "\"" . stripslashes(implode("\";\"", $csv_fields)) . "\"" . PHP_EOL;
-
-
-		if (!file_exists($file)) {
-			if (!$wp_filesystem->put_contents($file, $csv_line, FS_CHMOD_FILE)) {
-				return new WP_Error('writing_error', 'Error when writing file'); //return error object
-			}
-		} else {
-			$csv_old = $wp_filesystem->get_contents($file);
-			$csv_new = $csv_old . $csv_line;
-			if (!$wp_filesystem->put_contents($file, $csv_new, FS_CHMOD_FILE)) {
-				return new WP_Error('writing_error', 'Error when writing file'); //return error object
-			}
-		}
-
-		//return $form_fields;
-		// If you want to skip mailing the data, you can do it...
-		$wpcf7_data->skip_mail = true;
-	}
 
 	/*
 	 * Contact Form 7 : CF7-JavaScript deaktivieren (ungeklärter Konflikt mit Theme-JS)
@@ -1568,7 +1522,7 @@ if (!function_exists('luna_comment')) :
 			array(
 				'id'	=> 'veranstaltungen',
 				'title'	=> __('Events','luna'),
-				'content'	=> '<h3>Tabellarische Veranstaltungsübersicht</h3><p>Über den Shortcode <code>[event format=table]</code> können Sie automatisch eine Tabelle mit allen Einzelveranstaltungen generieren.</p><p>Geben Sie dazu an, welche Felder in der Tabelle angezeigt werden sollen. Es empfiehlt sich, max. 4-5 Felder auszuwählen, da sonst die Tabelle zu breit und zu unübersichtlich wird.</p><h3>Anmeldeformular</h3><p>Das Theme verwendet das Formular-Plugin Contactform7. Konfigurieren Sie das Formular über den Menüpunkt "Formular" und binden Sie es in eine Seite ein.</p><p>Geben Sie hier bei den Optionen den relativen Link zu der Seite ein, auf der Sie das Anmeldeformular eingebunden haben. Relativ bedeutet ohne "http://www.meine-domain.de/". Dieser Link wird für den Anmelden-Button unterhalb jeder Eventseite verwendet.</p><p>Außerdem haben Sie die Möglichkeit, die Anmeldedaten in einer CSV-Datei zu speichern, um Sie z.B. mit einem Tabellenkalukationsprogramm (OpenOffice Calc, Excel, Numbers o.ä.) auszuwerten.</p>'
+				'content'	=> '<h3>Tabellarische Veranstaltungsübersicht</h3><p>Über den Shortcode <code>[event format=table]</code> können Sie automatisch eine Tabelle mit allen Einzelveranstaltungen generieren.</p><p>Geben Sie dazu an, welche Felder in der Tabelle angezeigt werden sollen. Es empfiehlt sich, max. 4-5 Felder auszuwählen, da sonst die Tabelle zu breit und zu unübersichtlich wird.</p><h3>Anmeldeformular</h3><p>Das Theme verwendet das Formular-Plugin Contactform7. Konfigurieren Sie das Formular über den Menüpunkt "Formular" und binden Sie es in eine Seite ein.</p><p>Geben Sie hier bei den Optionen den relativen Link zu der Seite ein, auf der Sie das Anmeldeformular eingebunden haben. Relativ bedeutet ohne "http://www.meine-domain.de/". Dieser Link wird für den Anmelden-Button unterhalb jeder Eventseite verwendet.</p>'
 				)
 		);
 
