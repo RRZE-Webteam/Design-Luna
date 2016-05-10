@@ -48,7 +48,7 @@ global $options;
 		$(".accordion h2:gt(0)").addClass("closed");
 		$(".accordion div:gt(0)").hide();
 		$(".accordion h2").click(function () {
-			$(this).next("div").slideToggle("slow");
+			$(this).next("div").slideToggle(400);
 			$(this).toggleClass("closed");
 		});
 	});
