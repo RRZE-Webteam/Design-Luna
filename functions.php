@@ -239,6 +239,9 @@ add_action('wp_enqueue_scripts', function() {
 	wp_register_style('luna', get_stylesheet_uri(), array(), $theme['Version']);
 	wp_enqueue_style('luna');
 
+	wp_register_script('jquery', get_template_directory_uri() . '/js/jquery.min.js', array('jquery'));
+	wp_enqueue_script('jquery');
+
 	// enqueue scripts and styles, but only if is_admin
 });
 
