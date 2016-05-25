@@ -1629,8 +1629,14 @@ if (!function_exists('luna_comment')) :
                 'id' => 'veranstaltungen',
                 'title' => __('Talks', 'luna'),
                 'content' => '<h3>Tabellarische Veranstaltungsübersicht</h3>'
-                . '<p>Über den Shortcode <code>[talk format=table]</code> können Sie automatisch eine Tabelle mit allen Einzelveranstaltungen generieren.</p>'
-                . '<p>Geben Sie dazu an, welche Felder in der Tabelle angezeigt werden sollen. Es empfiehlt sich, max. 4-5 Felder auszuwählen, da sonst die Tabelle zu breit und zu unübersichtlich wird.</p>'
+                . '<p>Über den Shortcode <code>[talk]</code> können Sie automatisch eine Liste aller Einzelveranstaltungen generieren.</p>'
+                . '<p>Mögliche Attribute (optional):</p>'
+                . '<ul>'
+                . '<li><code>format="[table|short]"</code>: Darstellung als Tabelle (welche Spalten angezeigt werden, können Sie in den Theme-Optionen unter "Vorträge" auswählen), Kurzformat oder Langformat (Standardeinstellung)</li>'
+                . '<li><code>cat="allgemein"</code>: Nur Vorträge einer bestimmten Kategorie anzeigen</li>'
+                . '<li><code>num="10"</code>: Anzahl der Vorträge begrenzen</li>'
+                . '<li><code>id="123"</code>: Nur einen konkreten Vortrag anzeigen</li>'
+                . '</ul>'
                 . '<h3>Anmeldeformular</h3>'
                 . '<p>Das Theme verwendet das Formular-Plugin Contactform7. Konfigurieren Sie das Formular über den Menüpunkt "Formular" und binden Sie es in eine Seite ein.</p>'
                 . '<p>Geben Sie hier bei den Optionen den relativen Link zu der Seite ein, auf der Sie das Anmeldeformular eingebunden haben. Relativ bedeutet ohne "http://www.meine-domain.de/". Dieser Link wird für den Anmelden-Button unterhalb jeder Vortragsseite verwendet.</p>'

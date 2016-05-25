@@ -7,7 +7,7 @@
 // Register Custom Post Type
 function luna_talk_post_type() {
     global $options;
-    $slug_talk = strtolower(sanitize_file_name($options['label-talk-pl']));
+    $slug_talk = strtolower(sanitize_title($options['label-talk-pl']));
     $labels = array(
         'name' => _x('Talks', 'Post Type General Name', 'luna'),
         'singular_name' => _x('Talk', 'Post Type Singular Name', 'luna'),
@@ -433,7 +433,7 @@ function talk_shortcode($atts) {
                 $out .= "\n";
                 $out .= '<header class="titel">';
                 // Titel
-                $out .= '<h2 class="summary">' . $title . '</h2>';
+                $out .= '<h3 class="summary">' . $title . '</h3>';
                 // Referent
                 if ((isset($talk_referentname)) && ($showautor == 1)) {
                     $out .= '<p class="referent">';
@@ -524,7 +524,7 @@ add_shortcode('talk', 'talk_shortcode');
 
 function luna_speaker_post_type() {
     global $options;
-    $slug_speaker = strtolower(sanitize_file_name($options['label-speaker-pl']));
+    $slug_speaker = strtolower(sanitize_title($options['label-speaker-pl']));
 
     $labels = array(
         'name' => _x('Speakers', 'Post Type General Name', 'luna'),
