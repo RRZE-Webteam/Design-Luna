@@ -1,163 +1,167 @@
+# Loco Gettext template
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Luna v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: Tue May 24 2016 15:04:16 GMT+0200 (CEST)\n"
-"Last-Translator: Barbara Bothe <barbara.bothe@fau.de>\n"
+"POT-Revision-Date: Tue May 24 2016 14:46:14 GMT+0200 (CEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: zo95zofo <barbara.bothe@fau.de>\n"
 "Language-Team: \n"
-"Language: German\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Loco - https://localise.biz/\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
 "__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
 "_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
 "esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
 "esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
-"X-Loco-Target-Locale: de_DE"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
 
 #: ../functions.php:1610 ../inc/constants.php:571 ../inc/constants.php:588 ..
-#: inc/custom-post-types.php:14
+#: /inc/custom-post-types.php:14
 msgid "Talks"
-msgstr "Vortr&auml;ge"
+msgstr ""
 
 #: ../inc/constants.php:575
 msgid "Talk label"
-msgstr "Bezeichnung Vortrag"
+msgstr ""
 
 #: ../inc/constants.php:580 ../inc/constants.php:587
 msgid "Denotation of the talks (e.g. Workshop, Course, Conference etc)"
-msgstr "Beschriftung der Vortr&auml;ge (z.B. Seminar, Vortrag etc.)"
+msgstr ""
 
 #: ../inc/constants.php:581
 msgid "Talk"
-msgstr "Vortrag"
+msgstr ""
 
 #: ../inc/constants.php:616
 msgid "Denotation of the talk code (e.g. Course Nr, ID etc)"
-msgstr "Beschriftung des Kurzcodes des Vortrags (z.B. Seminar-Nr., ID etc.)"
+msgstr ""
 
 #: ../inc/constants.php:622
 msgid "Fields displayed in talk overview table"
-msgstr "Felder in der tabellarischen<br />Vortrags&uuml;bersicht"
+msgstr ""
 
 #: ../inc/constants.php:627
 msgid "Show talk date"
-msgstr "Datum des Vortrags anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:634
 msgid "Show start time of the talk"
-msgstr "Uhrzeit: Beginn des Vortrags anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:641
 msgid "Show end time of the talk"
-msgstr "Uhrzeit: Ende des Vortrags anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:648
 msgid "Show talk location"
-msgstr "Ort des Vortrags anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:662
 msgid "Show talk code"
-msgstr "Kurzcode des Vortrags anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:687
 msgid "Show registration button on single talk view"
-msgstr "Unter jeder Vortragsseite einen Link zur Anmeldeseite anzeigen"
+msgstr ""
 
 #: ../inc/custom-post-types.php:12
 msgctxt "Post Type General Name"
 msgid "Talks"
-msgstr "Vorträge"
+msgstr ""
 
 #: ../inc/custom-post-types.php:13
 msgctxt "Post Type Singular Name"
 msgid "Talk"
-msgstr "Vortrag"
+msgstr ""
 
 #: ../inc/custom-post-types.php:16
 msgid "All Talks"
-msgstr "Alle Vorträge"
+msgstr ""
 
 #: ../inc/custom-post-types.php:17
 msgid "View Talk"
-msgstr "Vortrag ansehen"
+msgstr ""
 
 #: ../inc/custom-post-types.php:18
 msgid "New Talk"
-msgstr "Neuer Vortrag"
+msgstr ""
 
 #: ../inc/custom-post-types.php:22
 msgid "Search Talk"
-msgstr "Vortrag suchen"
+msgstr ""
 
 #: ../inc/custom-post-types.php:23
 msgid "Talk not found"
-msgstr "Vortrag nicht gefunden."
+msgstr ""
 
 #: ../inc/custom-post-types.php:24
 msgid "Talk not found in recycle bin"
-msgstr "Vortrag nicht im Papierkorb gefunden."
+msgstr ""
 
 #: ../inc/custom-post-types.php:27
 msgid "talk"
-msgstr "vortrag"
+msgstr ""
 
 #: ../inc/custom-post-types.php:28
 msgid "Add and edit talk information"
-msgstr "Vortragsinformationen hinzufügen und bearbeiten"
+msgstr ""
 
 #: ../inc/custom-post-types.php:71
 msgid "Talk Information"
-msgstr "Vortragsinformationen"
+msgstr ""
 
 #: ../inc/custom-post-types.php:143
 msgid "Offer waiting list for fully booked talks"
-msgstr "Warteliste für ausgebuchten Vortrag anbieten."
+msgstr ""
 
 #: ../inc/custom-post-types.php:157
 msgid "Enter URL to talk presentation slides: &quot;http://...&quot;"
 msgstr ""
-"Geben Sie hier die Webadresse (URL) für die Vortragsfolien ein (&quot;http:"
-"//...&quot;)."
 
 #: ../inc/custom-post-types.php:222
 msgid "Talk information updated. "
-msgstr "Vortragsinformationen gespeichert."
+msgstr ""
 
 #: ../inc/custom-post-types.php:223
 msgid "Talk information updated."
-msgstr "Vortragsinformationen gespeichert."
+msgstr ""
 
 #: ../inc/custom-post-types.php:224
 msgid "Talk information deleted."
-msgstr "Vortragsinformationen gelöscht."
+msgstr ""
 
 #: ../inc/custom-post-types.php:225
 msgid "Talk information published."
-msgstr "Vortragsinformationen veröffentlicht."
+msgstr ""
 
 #: ../inc/custom-post-types.php:226
 msgid "Talk information saved."
-msgstr "Vortragsinformationen gespeichert."
+msgstr ""
 
 #: ../inc/custom-post-types.php:510
 msgid "No talk information found."
-msgstr "Keine Vortragsinformationen gefunden."
+msgstr ""
 
 #. Name of the theme
 msgid "Luna"
-msgstr "Luna"
+msgstr ""
 
 #. Theme URI of the theme
 msgid "https://github.com/RRZE-Webteam/Design-Luna"
-msgstr "https://github.com/RRZE-Webteam/Design-Luna"
+msgstr ""
 
 #. Description of the theme
 msgid ""
@@ -169,995 +173,960 @@ msgid ""
 "per Shortcode. Optionales Plugin \"Contact Form 7\" für Anmeldeformular "
 "empfohlen. Shortcodes für Bildergalerie und Content-Slider."
 msgstr ""
-"WordPress-Theme für Veranstaltungen, z.B. Konferenzen. Inhaltsformate für "
-"Vorträge (Titel, Beschreibung, Referent, Kurzbezeichnung, Datum, Uhrzeit, "
-"Ort, Teilnehmerzahl, Link zur Präsentation...) und Referenten (Name, "
-"Beschreibung, URL), wobei die Bezeichnung von \"Vortrag\" und \"Referent\" "
-"angepasst werden kann. Darstellung der Vorträge als tabellarische Übersicht "
-"per Shortcode. Optionales Plugin \"Contact Form 7\" für Anmeldeformular "
-"empfohlen. Shortcodes für Bildergalerie und Content-Slider."
 
 #. Author of the theme
 msgid "RRZE-Webteam"
-msgstr "RRZE-Webteam"
+msgstr ""
 
 #. Author URI of the theme
 msgid "http://www.rrze.uni-erlangen.de/"
-msgstr "http://www.rrze.uni-erlangen.de/"
+msgstr ""
 
 #: ../archive.php:30 ../archive-talk.php:30
 msgid "Nothing Found"
-msgstr "Nichts gefunden."
+msgstr ""
 
 #: ../archive.php:34 ../home.php:54 ../archive-talk.php:34
 msgid ""
 "Apologies, but no results were found for the requested archive. Perhaps "
 "searching will help find a related post."
 msgstr ""
-"Leider wurden in diesem Archiv keine Artikel gefunden. Vielleicht hilft die "
-"Suche nach verwandten Themen."
 
 #: ../author.php:59 ../category.php:16 ../loop.php:72 ../search.php:73 ../tag.php:
 #: 59
 msgid "&larr; Older Posts"
-msgstr "&larr; &Auml;ltere Beitr&auml;ge"
+msgstr ""
 
 #: ../author.php:60 ../category.php:17 ../loop.php:73 ../search.php:74 ../tag.php:
 #: 60
 msgid "Newer Posts &rarr;"
-msgstr "Neuere Beitr&auml;ge &rarr;"
+msgstr ""
 
 #: ../comments.php:7
 msgid ""
 "This article is password proteced. Please enter the password to view the "
 "comments."
 msgstr ""
-"This article is password proteced. Please enter the password to view the "
-"comments."
 
 #: ../comments.php:13
 msgid "Comments"
-msgstr "Kommentare"
+msgstr ""
 
 #: ../comments.php:15
 #, php-format
 msgid "One Comment about %2$s"
 msgid_plural "%1$s Comments about %2$s"
-msgstr[0] "Ein Kommentar zu %2$s"
-msgstr[1] "%1$s Kommentare zu %2$s"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../comments.php:22 ../comments.php:44
 msgid "Comment navigation"
-msgstr "Kommentar-Navigation"
+msgstr ""
 
 #: ../comments.php:24 ../comments.php:46
 msgid "&larr; Older Comments"
-msgstr "&larr; &Auml;ltere Kommentare"
+msgstr ""
 
 #: ../comments.php:25 ../comments.php:47
 msgid "Newer Comments &rarr;"
-msgstr "Neuere Kommentare &rarr;"
+msgstr ""
 
 #: ../comments.php:31
 msgid "Comments are closed."
-msgstr "Das Kommentieren dieses Artikels ist nicht (mehr) m&ouml;glich."
+msgstr ""
 
 #: ../comments.php:67 ../comments.php:76
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: ../comments.php:78 ../inc/custom-post-types.php:600
 msgid "Website"
-msgstr "Website"
+msgstr ""
 
 #: ../functions.php:143
 msgid "Main Menu"
-msgstr "Hauptnavigation"
+msgstr ""
 
 #: ../functions.php:144
 msgid "Target Menu"
-msgstr "Zielgruppenmen&uuml;"
+msgstr ""
 
 #: ../functions.php:145
 msgid "Tech Menu (Contact, Imprint etc.)"
-msgstr "Technische Navigation (Kontakt, Impressum etc.)"
+msgstr ""
 
 #: ../functions.php:368 ../functions.php:422
 msgid "Search for "
-msgstr "Suche nach "
+msgstr ""
 
 #: ../functions.php:370 ../functions.php:424
 msgid "Articles tagged "
-msgstr "Artikel mit Schlagwort "
+msgstr ""
 
 #: ../functions.php:374 ../functions.php:428
 msgid "Articles by "
-msgstr "Artikel von "
+msgstr ""
 
 #: ../functions.php:458
 #, php-format
 msgid "Search Results for %s"
-msgstr "Suchergebnisse f&uuml;r %s"
+msgstr ""
 
 #: ../functions.php:461 ../functions.php:478
 #, php-format
 msgid "Page %s"
-msgstr "Seite %s"
+msgstr ""
 
 #: ../functions.php:538
 #, php-format
 msgid "%s <span class=\"says\">says on</span>"
-msgstr "%s <span class=\"says\">meinte am</span>"
+msgstr ""
 
 #: ../functions.php:542
 msgid "Comment is waiting for moderation."
-msgstr "Der Kommentar wartet auf die Freischaltung."
+msgstr ""
 
+#. translators: 1: date, 2: time
 #: ../functions.php:550
 #, php-format
 msgid "%1$s at %2$s"
-msgstr "%1$s um %2$s"
+msgstr ""
 
 #: ../functions.php:551 ../loop.php:55 ../page.php:19 ../single-talk.php:44 ..
-#: single-speaker.php:39 ../single.php:58 ../inc/custom-post-types.php:20 ..
-#: inc/custom-post-types.php:538
+#: /single-speaker.php:39 ../single.php:58 ../inc/custom-post-types.php:20 ..
+#: /inc/custom-post-types.php:538
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr ""
 
 #: ../functions.php:571
 msgid "Pingback:"
-msgstr "Pingback:"
+msgstr ""
 
 #: ../functions.php:571
 msgid "(Edit)"
-msgstr "(Bearbeiten)"
+msgstr ""
 
 #: ../functions.php:723
 msgid "Published "
-msgstr "Ver&ouml;ffentlicht am"
+msgstr ""
 
 #: ../functions.php:739
 #, php-format
 msgid " <span class=\"meta-prep-author\">by</span> %1$s "
-msgstr " <span class=\"meta-prep-author\">von</span> %1$s "
+msgstr ""
 
 #: ../functions.php:739
 #, php-format
 msgid "Article by %s"
-msgstr "Artikel von %s"
+msgstr ""
 
 #: ../functions.php:752
 #, php-format
 msgid "<br> Categories: %1$s <br>Tags: %2$s"
-msgstr "<br> Kategorien: %1$s <br>Schlagwörter: %2$s"
+msgstr ""
 
 #: ../functions.php:754
 #, php-format
 msgid " about %1$s."
-msgstr " unter %1$s."
+msgstr ""
 
 #: ../functions.php:772
 msgid "Categories: "
-msgstr "Kategorien: "
+msgstr ""
 
 #: ../functions.php:875 ../functions.php:889
 msgid "No content"
-msgstr "Kein Inhalt"
+msgstr ""
 
 #: ../functions.php:1314
 #, php-format
 msgid "Category Archives: %s"
-msgstr "Kategorie-Archiv: %s"
+msgstr ""
 
 #: ../functions.php:1316
 #, php-format
 msgid "Tag Archives: %s"
-msgstr "Tag-Archiv: %s"
+msgstr ""
 
 #: ../functions.php:1554
 msgctxt "Addition to select list option on registration form"
 msgid "WAITING LIST"
-msgstr "WARTELISTE"
+msgstr ""
 
 #: ../functions.php:1567
 msgid "Please select..."
-msgstr "Bitte w&auml;hlen..."
+msgstr ""
 
 #: ../functions.php:1588 ../inc/constants.php:242
 msgid "Design"
-msgstr "Design"
+msgstr ""
 
 #: ../header.php:166 ../header.php:168 ../header.php:170
 #, php-format
 msgid "%s"
-msgstr "%s"
+msgstr ""
 
 #: ../header.php:168
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr "F Y"
+msgstr ""
 
 #: ../header.php:170
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "Y"
+msgstr ""
 
 #: ../home.php:52 ../index.php:52 ../loop.php:11 ../search.php:81
 msgid "Nothing found"
-msgstr "Nichts gefunden."
+msgstr ""
 
 #: ../index.php:54 ../loop.php:12
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Es konnten keine Artikel gefunden werden. Vielleicht hilft die Suchfunktion "
-"weiter?"
 
 #: ../loop.php:22 ../loop.php:52
 msgctxt "gallery category slug"
 msgid "gallery"
-msgstr "galerie"
+msgstr ""
 
 #: ../loop.php:25 ../loop.php:44
 #, php-format
 msgid "Permalink to %s"
-msgstr "Permalink zu %s"
+msgstr ""
 
 #: ../loop.php:44
 #, php-format
 msgid "This gallery contains <a %1$s>%2$s Fotos</a>."
-msgstr "Diese Galerie enth&auml;lt <a %1$s>%2$s photos</a>."
+msgstr ""
 
 #: ../loop.php:52
 msgid "Show gallery articles"
-msgstr "Zeige Artikel aus der Galerie"
+msgstr ""
 
 #: ../loop.php:52
 msgid "More galleries"
-msgstr "Mehr Bildergalerien"
+msgstr ""
 
 #: ../loop.php:54
 msgid "Leave a comment"
-msgstr "Hinterlassen Sie einen Kommentar"
+msgstr ""
 
 #: ../loop.php:54
 msgid "1 Comment"
-msgstr "1 Kommentar"
+msgstr ""
 
 #: ../loop.php:54
 #, php-format
 msgid "% Comments"
-msgstr "% Kommentare"
+msgstr ""
 
 #: ../page.php:18 ../single-talk.php:35 ../single-speaker.php:30 ../single.php:29
 msgid "Pages:"
-msgstr "Seiten:"
+msgstr ""
 
 #: ../search.php:83
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with "
 "different keywords."
 msgstr ""
-"Es konnten keine Seiten oder Artikel gefunden werden, die zu der Sucheingabe "
-"passen. Bitte versuchen Sie es nochmal mit einer  anderen Suche."
 
 #: ../search.php:89
 msgid "Alternatively you may use one of the following links."
-msgstr "Alternativ verwenden Sie einen der folgenden Links."
+msgstr ""
 
 #: ../search.php:94
 msgid "Monthly Archives"
-msgstr "Archiv nach Monaten"
+msgstr ""
 
 #: ../search.php:99
 msgid "Tag Archives"
-msgstr "Artikel nach Schlagworten"
+msgstr ""
 
 #: ../search.php:105
 msgid "Category List"
-msgstr "&Uuml;bersicht aller Kategorien"
+msgstr ""
 
 #: ../single-talk.php:28
 msgid "Register online"
-msgstr "Zur Anmeldung"
+msgstr ""
 
 #: ../single-talk.php:63 ../single-speaker.php:59 ../single.php:77
 msgid "Related Articles:"
-msgstr "Weitere Artikel in diesem Themenkreis:"
+msgstr ""
 
 #: ../theme-options.php:17 ../theme-options.php:17
 msgid "Luna Theme Options"
-msgstr "Luna Theme-Optionen"
+msgstr ""
 
 #: ../theme-options.php:54
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr ""
 
 #: ../theme-options.php:57
 msgid "Options saved"
-msgstr "Optionen wurden gespeichert."
+msgstr ""
 
 #: ../theme-options.php:191
 msgid "Upload Logo"
-msgstr "Logo hochladen"
+msgstr ""
 
 #: ../theme-options.php:192
 msgid "Upload or choose a logo image"
-msgstr "Logo hochladen oder ausw&auml;hlen."
+msgstr ""
 
 #: ../theme-options.php:400
 msgid "Options not set"
-msgstr "Optionen nicht definiert"
+msgstr ""
 
 #: ../theme-options.php:409
 msgid "Save Options"
-msgstr "Optionen speichern"
+msgstr ""
 
 #: ../inc/constants.php:34
 msgid "Your email address will not be published. Required fields are highlighted: "
 msgstr ""
-"Ihre E-Mail-Adresse wird nicht ver&ouml;ffentlicht. Pflichtfelder sind "
-"markiert: "
 
 #: ../inc/constants.php:66
 msgid "Sticky "
-msgstr "Oben gehalten "
+msgstr ""
 
 #: ../inc/constants.php:78
 msgid "Home"
-msgstr "Startseite"
+msgstr ""
 
 #: ../inc/constants.php:79
 msgid "Back to Home page"
-msgstr "Zur&uuml;ck zur Startseite"
+msgstr ""
 
 #: ../inc/constants.php:106 ../inc/constants.php:719
 msgid "Share on Facebook"
-msgstr "Auf Facebook teilen"
+msgstr ""
 
 #: ../inc/constants.php:111 ../inc/constants.php:728
 msgid "Share on Twitter"
-msgstr "Auf Twitter teilen"
+msgstr ""
 
 #: ../inc/constants.php:205
 msgid "Faculties"
-msgstr "Fakultaeten"
+msgstr ""
 
 #: ../inc/constants.php:206
 msgid "Friedrich-Alexander-Universit&auml;t Erlangen-N&uuml;rnberg"
-msgstr "Friedrich-Alexander-Universit&auml;t Erlangen-N&uuml;rnberg"
+msgstr ""
 
 #: ../inc/constants.php:209
 msgid "Faculty of Humanities, Social Sciences, and Theology"
-msgstr "Philosophische Fakult&auml;t und Fachbereich Theologie"
+msgstr ""
 
 #: ../inc/constants.php:210
 msgid "Faculty of Business, Economics, and Law"
-msgstr "Rechts- und Wirtschaftswissenschaftliche Fakult&auml;t"
+msgstr ""
 
 #: ../inc/constants.php:211
 msgid "Faculty of Medicine"
-msgstr "Medizinische Fakult&auml;t"
+msgstr ""
 
 #: ../inc/constants.php:212
 msgid "Faculty of Sciences"
-msgstr "Naturwissenschaftliche Fakult&auml;t"
+msgstr ""
 
 #: ../inc/constants.php:213
 msgid "Faculty of Engineering"
-msgstr "Technische Fakult&auml;t"
+msgstr ""
 
 #: ../inc/constants.php:216
 msgid "RRZE"
-msgstr "RRZE"
+msgstr ""
 
 #: ../inc/constants.php:217
 msgid "Regional Computing Centre Erlangen"
-msgstr "Regionales Rechenzentrum Erlangen"
+msgstr ""
 
 #: ../inc/constants.php:220
 msgid "Service Desk"
-msgstr "Service-Theke"
+msgstr ""
 
 #: ../inc/constants.php:221
 msgid "Information Centre City"
-msgstr "Informationszentrum Innenstadt"
+msgstr ""
 
 #: ../inc/constants.php:222
 msgid "Information Centre Nuremberg"
-msgstr "Informationszentrum N&uuml;rnberg"
+msgstr ""
 
 #: ../inc/constants.php:223
 msgid "Information Centre Halbmondstrasse"
-msgstr "Informationszentrum Halbmondstra&szlig;e"
+msgstr ""
 
 #: ../inc/constants.php:224
 msgid "Blog Service"
-msgstr "Blog-Service"
+msgstr ""
 
 #: ../inc/constants.php:225
 msgid "Video Portal"
-msgstr "Videoportal"
+msgstr ""
 
 #: ../inc/constants.php:226
 msgid "IDM"
-msgstr "IDM"
+msgstr ""
 
 #: ../inc/constants.php:227
 msgid "News"
-msgstr "Aktuelle Meldungen"
+msgstr ""
 
 #: ../inc/constants.php:246 ../inc/widgets.php:21
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr ""
 
 #: ../inc/constants.php:247
 msgid "Show second sidebar"
-msgstr "Rechte Sidebar anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:252 ../inc/widgets.php:11 ../inc/widgets.php:43
 msgid "Additional Info"
-msgstr "Zusatzinfo"
+msgstr ""
 
 #: ../inc/constants.php:253
 msgid "Show additional info area"
-msgstr "Zusatzinfo anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:258
 msgid "Link Icons"
-msgstr "Linkicons"
+msgstr ""
 
 #: ../inc/constants.php:259
 msgid "Add link icons"
-msgstr "Automatische Linkicons aktivieren"
+msgstr ""
 
 #: ../inc/constants.php:264
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #: ../inc/constants.php:265
 msgid "Show Logo in Header Area"
-msgstr "Logo im Header anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:269 ../inc/constants.php:626 ../inc/custom-post-types.php:
 #: 89 ../inc/custom-post-types.php:288
 msgid "Date"
-msgstr "Datum"
+msgstr ""
 
 #: ../inc/constants.php:270
 msgid "Show event date in header"
-msgstr "Datum der Veranstaltung im Header anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:275 ../inc/constants.php:647 ../inc/custom-post-types.php:
 #: 102 ../inc/custom-post-types.php:298
 msgid "Location"
-msgstr "Ort"
+msgstr ""
 
 #: ../inc/constants.php:276
 msgid "Show event location in header"
-msgstr "Ort der Veranstaltung im Header anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:281
 msgid "Home page name"
-msgstr "Name Startseite"
+msgstr ""
 
 #: ../inc/constants.php:282
 msgid "Name of the home page for breadcrumb navigation"
-msgstr "Name der Startseite f&uuml;r die Brotkr&uuml;melnavigation"
+msgstr ""
 
 #: ../inc/constants.php:287
 msgid "Show authors"
-msgstr "Autoren anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:288
 msgid "Show link to authors in articles"
-msgstr "Bei der Anzeige von Artikeln den Autoren anzeigen und verlinken."
+msgstr ""
 
 #: ../inc/constants.php:293
 msgid "Buttons"
-msgstr "Buttons"
+msgstr ""
 
 #: ../inc/constants.php:297
 msgid "Show&nbsp;Buttons"
-msgstr "Buttons&nbsp;anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:298
 msgid "Display custom buttons on top of the second sidebar"
-msgstr "Rechts oberhalb der Sidebar Buttons anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:304
 msgid "First&nbsp;Button"
-msgstr "1.&nbsp;Button"
+msgstr ""
 
 #: ../inc/constants.php:305 ../inc/constants.php:339 ../inc/constants.php:709 ..
-#: inc/constants.php:744
+#: /inc/constants.php:744
 msgid "Show"
-msgstr "Anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:311 ../inc/constants.php:345
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: ../inc/constants.php:312 ../inc/constants.php:346
 msgid "Target URL"
-msgstr "Ziel-URL"
+msgstr ""
 
 #: ../inc/constants.php:318 ../inc/constants.php:319 ../inc/constants.php:352 ..
-#: inc/constants.php:353
+#: /inc/constants.php:353
 msgid "Button label"
-msgstr "Button-Text"
+msgstr ""
 
 #: ../inc/constants.php:325 ../inc/constants.php:359
 msgid "Color"
-msgstr "Farbe"
+msgstr ""
 
 #: ../inc/constants.php:326 ../inc/constants.php:360
 msgid "Button background color"
-msgstr "Hintergrundfarbe des Buttons"
+msgstr ""
 
 #: ../inc/constants.php:329 ../inc/constants.php:363
 msgid "Grey"
-msgstr "grau"
+msgstr ""
 
 #: ../inc/constants.php:330 ../inc/constants.php:364
 msgid "Yellow"
-msgstr "gelb"
+msgstr ""
 
 #: ../inc/constants.php:331 ../inc/constants.php:365
 msgid "Green"
-msgstr "gr&uuml;n"
+msgstr ""
 
 #: ../inc/constants.php:332 ../inc/constants.php:366
 msgid "Blue"
-msgstr "blau"
+msgstr ""
 
 #: ../inc/constants.php:338
 msgid "Second&nbsp;Button"
-msgstr "Zweiter&nbsp;Button"
+msgstr ""
 
 #: ../inc/constants.php:373
 msgid "Home Page"
-msgstr "Startseite"
+msgstr ""
 
 #: ../inc/constants.php:377
 msgid "Home page settings"
-msgstr "Einstellungen f&uuml;r die Darstellung der Beitr&auml;ge auf der Startseite	"
+msgstr ""
 
 #: ../inc/constants.php:381
 msgid "Title text length"
-msgstr "Titel: Textl&auml;nge"
+msgstr ""
 
 #: ../inc/constants.php:382
 msgid "Maximum title length (number of characters)"
-msgstr "Maximale Textl&auml;nge des Titels im Teaser (Anzahl Zeichen)"
+msgstr ""
 
 #: ../inc/constants.php:387
 msgid "Title words"
-msgstr "Titel: Wortzahl"
+msgstr ""
 
 #: ../inc/constants.php:388
 msgid "Maximum number of words in title (limited by the title text length)"
 msgstr ""
-"Maximale Zahl der Worte im Titel; die maximale Textl&auml;nge begrenzt "
-"diesen Wert jedoch."
 
 #: ../inc/constants.php:393 ../inc/constants.php:479
 msgid "Full width articles"
-msgstr "Beitr&auml;ge &uuml;ber ganze Breite"
+msgstr ""
 
 #: ../inc/constants.php:397 ../inc/constants.php:435 ../inc/constants.php:483 ..
-#: inc/constants.php:528
+#: /inc/constants.php:528
 msgid "Count"
-msgstr "Anzahl"
+msgstr ""
 
 #: ../inc/constants.php:398 ../inc/constants.php:484
 msgid "Number of articles displayed in full width"
-msgstr "Zahl der Beitr&auml;ge, die &uuml;ber die gesamte Inhaltsbreite gehen"
+msgstr ""
 
 #: ../inc/constants.php:404 ../inc/constants.php:443 ../inc/constants.php:490 ..
-#: inc/constants.php:536
+#: /inc/constants.php:536
 msgid "Teaser length"
-msgstr "L&auml;nge des Teasertextes (Artikelauszug)"
+msgstr ""
 
 #: ../inc/constants.php:405
 msgid "Maximum teaser length on home page"
-msgstr "Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge auf der Startseite"
+msgstr ""
 
 #: ../inc/constants.php:411 ../inc/constants.php:450 ../inc/constants.php:517 ..
-#: inc/constants.php:563
+#: /inc/constants.php:563
 msgid "Date line"
-msgstr "Datumszeile"
+msgstr ""
 
 #: ../inc/constants.php:412 ../inc/constants.php:451 ../inc/constants.php:518 ..
-#: inc/constants.php:564
+#: /inc/constants.php:564
 msgid "Show article date with the teaser"
-msgstr "Datum des Beitrags vor dem Text anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:418 ../inc/constants.php:457 ../inc/constants.php:497 ..
-#: inc/constants.php:543
+#: /inc/constants.php:543
 msgid "Teaser image"
-msgstr "Bild"
+msgstr ""
 
 #: ../inc/constants.php:419 ../inc/constants.php:458 ../inc/constants.php:498 ..
-#: inc/constants.php:544
+#: /inc/constants.php:544
 msgid "Show featured image, first image or first video in article as teaser image."
 msgstr ""
-"Links des Textauszuges das Datum, das Artikelbild, ein Bild des Artikels "
-"oder ein verlinktes Video anzeigen; Abh&auml;ngig vom Inhalt des Artikels."
 
 #: ../inc/constants.php:422 ../inc/constants.php:461 ../inc/constants.php:501 ..
-#: inc/constants.php:547
+#: /inc/constants.php:547
 msgid "Order: Article image, first image, first video, default image"
-msgstr "Reihenfolge: Artikelbild, erstes Bild, erstes Video oder Ersatzbild zeigen"
+msgstr ""
 
 #: ../inc/constants.php:423 ../inc/constants.php:462 ../inc/constants.php:502 ..
-#: inc/constants.php:548
+#: /inc/constants.php:548
 msgid "Order: First image, article image, first video, default image"
-msgstr "Reihenfolge: Erstes Bild, Artikelbild, erstes Video oder Ersatzbild zeigen"
+msgstr ""
 
 #: ../inc/constants.php:424 ../inc/constants.php:463 ../inc/constants.php:503 ..
-#: inc/constants.php:549
+#: /inc/constants.php:549
 msgid "Order: First video, article image, first image, default image"
-msgstr "Reihenfolge: Erstes Video, Artikelbild, erstes Bild oder Ersatzbild zeigen"
+msgstr ""
 
 #: ../inc/constants.php:425 ../inc/constants.php:464 ../inc/constants.php:504 ..
-#: inc/constants.php:550
+#: /inc/constants.php:550
 msgid "Order: First video, first image, article image, default image"
-msgstr "Reihenfolge: Erstes Video, erstes Bild, Artikelbild oder Ersatzbild zeigen"
+msgstr ""
 
 #: ../inc/constants.php:426 ../inc/constants.php:465 ../inc/constants.php:505 ..
-#: inc/constants.php:551
+#: /inc/constants.php:551
 msgid "No image"
-msgstr "Kein Bild anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:431 ../inc/constants.php:524
 msgid "Half width articles"
-msgstr "Beitr&auml;ge &uuml;ber halbe Seitenbreite"
+msgstr ""
 
 #: ../inc/constants.php:436 ../inc/constants.php:529
 msgid "Number of articles displayed in half width"
 msgstr ""
-"Zahl der Beitr&auml;ge, die in Spalten mit je zwei Beitr&auml;gen "
-"nebeneinander, angezeigt werden"
 
 #: ../inc/constants.php:444 ../inc/constants.php:537
 msgid "Maximum teaser length (half width articles)"
 msgstr ""
-"Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge (Bei Beitr&auml;gen "
-"&uuml;ber halbe Breite)"
 
 #: ../inc/constants.php:471
 msgid "Index pages"
-msgstr "Indexseiten"
+msgstr ""
 
 #: ../inc/constants.php:475
 msgid "Archive page settings (category, tag, date, author etc)"
 msgstr ""
-"Einstellungen f&uuml;r Indexseiten (Beitr&auml;ge mit bestimmten Kategorien, "
-"Tags, Datum, Autor etc.)"
 
 #: ../inc/constants.php:491
 msgid "Maximum teaser length (full width articles)"
 msgstr ""
-"Maximale Textl&auml;nge f&uuml;r Artikelausz&uuml;ge (Bei Beitr&auml;gen "
-"&uuml;ber ganze Breite)."
 
 #: ../inc/constants.php:510 ../inc/constants.php:556
 msgid "Floating Text"
-msgstr "Flie&szlig;ender Text"
+msgstr ""
 
 #: ../inc/constants.php:511 ../inc/constants.php:557
 msgid "Text floating around the image"
-msgstr "Text umflie&szlig;t das Bild"
+msgstr ""
 
 #: ../inc/constants.php:579 ../inc/constants.php:597
 msgid "Singular"
-msgstr "Singular"
+msgstr ""
 
 #: ../inc/constants.php:586 ../inc/constants.php:604
 msgid "Plural"
-msgstr "Plural"
+msgstr ""
 
 #: ../inc/constants.php:593
 msgid "Speaker label"
-msgstr "Bezeichnung Referent"
+msgstr ""
 
 #: ../inc/constants.php:598 ../inc/constants.php:605
 msgid "Denotation of the speakers (e.g. lecturer, speaker, contributor etc)"
-msgstr "Beschriftung der Referenten (z.B. Referent, Dozent, Seminarleiter etc.)"
+msgstr ""
 
 #: ../inc/constants.php:599 ../inc/constants.php:654
 msgid "Speaker"
-msgstr "Referent"
+msgstr ""
 
 #: ../inc/constants.php:606 ../inc/custom-post-types.php:532
 msgid "Speakers"
-msgstr "Referenten"
+msgstr ""
 
 #: ../inc/constants.php:611
 msgid "Code label"
-msgstr "Bezeichnung Kurzcode"
+msgstr ""
 
 #: ../inc/constants.php:615
 msgid "Label"
-msgstr "Bezeichnung"
+msgstr ""
 
 #: ../inc/constants.php:617
 msgid "Seminar Nr"
-msgstr "Seminar-Nr."
+msgstr ""
 
 #: ../inc/constants.php:633
 msgid "Start time"
-msgstr "Zeit (Beginn)"
+msgstr ""
 
 #: ../inc/constants.php:640
 msgid "End time"
-msgstr "Zeit (Ende)"
+msgstr ""
 
 #: ../inc/constants.php:655
 msgid "Show the speaker&rsquo;s name linked to his single page"
-msgstr "Name des Referenten anzeigen (verlinkt mit der Detailseite des Referenten)"
+msgstr ""
 
 #: ../inc/constants.php:661 ../inc/custom-post-types.php:84
 msgid "Code"
-msgstr "Kurzcode"
+msgstr ""
 
 #: ../inc/constants.php:668 ../inc/custom-post-types.php:131
 msgid "Max. number of participants"
-msgstr "Max. Teilnehmerzahl"
+msgstr ""
 
 #: ../inc/constants.php:669
 msgid "Show max. number of participants"
-msgstr "Maximale Teilnehmerzahl anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:675 ../inc/custom-post-types.php:137
 msgid "Places available"
-msgstr "Verf&uuml;gbare Pl&auml;tze"
+msgstr ""
 
 #: ../inc/constants.php:676
 msgid "Show number of places available"
-msgstr "Anzahl der verf&uuml;gbaren Pl&auml;tze anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:682
 msgid "Registration form"
-msgstr "Anmeldeformular"
+msgstr ""
 
 #: ../inc/constants.php:686
 msgid "Registration button"
-msgstr "Anmeldebutton"
+msgstr ""
 
 #: ../inc/constants.php:693
 msgid "Registration page"
-msgstr "Anmeldeseite"
+msgstr ""
 
 #: ../inc/constants.php:694
 msgid "Relative path to the registration page"
-msgstr "Relativer Pfad zur Anmeldeseite"
+msgstr ""
 
 #: ../inc/constants.php:695
 msgid "registration"
-msgstr "anmeldung"
+msgstr ""
 
 #: ../inc/constants.php:701
 msgid "Social Media"
-msgstr "Social Media"
+msgstr ""
 
 #: ../inc/constants.php:705
 msgid "Share Icons in Post Header"
-msgstr "&quot;Teilen&quot;-Icon f&uuml;r einzelne Beitr&auml;ge anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:710
 msgid "Show social media share buttons in the header of each post"
-msgstr "&quot;Teilen&quot;-Icon f&uuml;r einzelne Beitr&auml;ge anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:716
 msgid "Facebook"
-msgstr "Facebook"
+msgstr ""
 
 #: ../inc/constants.php:717
 msgid "Show \"Share on Facebook\" icon."
-msgstr "&quot;Auf Facebook teilen&quot;-Icon anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:725
 msgid "Twitter"
-msgstr "Twitter"
+msgstr ""
 
 #: ../inc/constants.php:726
 msgid "Show \"Share on Twitter\" icon."
-msgstr "&quot;Auf Twitter teilen&quot;-Icon anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:734
 msgid "Twitter via (optional)"
-msgstr "Twitter via (optional)"
+msgstr ""
 
 #: ../inc/constants.php:735
 msgid ""
 "Your Twitter user name. Appears appended to Tweet text as via @username. The "
 "Twitter account may appear in a list of recommended accounts to follow."
 msgstr ""
-"Ihr Twitter Benutzername. Erscheint hinter dem Tweet-Text als &quot;via "
-"@username&quot;. Dadurch kann Ihr Twitter-Account in der Liste der zum "
-"folgen empfohlenen Accounts angezeigt werden."
 
 #: ../inc/constants.php:740
 msgid "Follow Icons in Sidebar"
-msgstr "&quot;Folgen&quot;-Icons in der Sidebar"
+msgstr ""
 
 #: ../inc/constants.php:745
 msgid "Show social media link icons on top of the sidebar"
-msgstr "Social-Media-Linkicons oben rechts in der Sidebar anzeigen"
+msgstr ""
 
 #: ../inc/constants.php:751
 msgid "Links"
-msgstr "Links"
+msgstr ""
 
 #: ../inc/custom-post-types.php:15 ../inc/custom-post-types.php:533
 msgid "Parent Item:"
-msgstr "Elternelement:"
+msgstr ""
 
 #: ../inc/custom-post-types.php:19 ../inc/custom-post-types.php:537
 msgid "New"
-msgstr "Neu"
+msgstr ""
 
 #: ../inc/custom-post-types.php:21 ../inc/custom-post-types.php:539
 msgid "Update"
-msgstr "Aktualisieren"
+msgstr ""
 
 #: ../inc/custom-post-types.php:94
 msgid "Time - from"
-msgstr "Zeit – von"
+msgstr ""
 
 #: ../inc/custom-post-types.php:97
 msgid "to"
-msgstr "bis"
+msgstr ""
 
 #: ../inc/custom-post-types.php:151
 msgid "Enter URL for video (FAU Video portal): &quot;http://...&quot;"
 msgstr ""
-"Geben Sie hier die Webadresse (URL) ein, die zur Aufzeichnung (Videportal) "
-"f&uuml;hrt (&quot;http://...&quot;)"
 
 #: ../inc/custom-post-types.php:292
 msgid "Start"
-msgstr "Beginn"
+msgstr ""
 
 #: ../inc/custom-post-types.php:295
 msgid "End"
-msgstr "Ende"
+msgstr ""
 
 #: ../inc/custom-post-types.php:307
 msgid "Participants"
-msgstr "Teilnehmer"
+msgstr ""
 
 #: ../inc/custom-post-types.php:310
 msgid "Available"
-msgstr "Verf&uuml;gbar"
+msgstr ""
 
 #: ../inc/custom-post-types.php:530
 msgctxt "Post Type General Name"
 msgid "Speakers"
-msgstr "Referenten"
+msgstr ""
 
 #: ../inc/custom-post-types.php:531
 msgctxt "Post Type Singular Name"
 msgid "Speaker"
-msgstr "Referent"
+msgstr ""
 
 #: ../inc/custom-post-types.php:534
 msgid "All Speakers"
-msgstr "Alle Referenten"
+msgstr ""
 
 #: ../inc/custom-post-types.php:535
 msgid "View Speaker"
-msgstr "Referenten ansehen"
+msgstr ""
 
 #: ../inc/custom-post-types.php:536
 msgid "New Speaker"
-msgstr "Neuer Referent"
+msgstr ""
 
 #: ../inc/custom-post-types.php:540
 msgid "Search Speaker"
-msgstr "Referenten suchen"
+msgstr ""
 
 #: ../inc/custom-post-types.php:541
 msgid "Speaker not found"
-msgstr "Referent nicht gefunden."
+msgstr ""
 
 #: ../inc/custom-post-types.php:542
 msgid "Speaker not found in recycle bin"
-msgstr "Referent nicht im Papierkorb gefunden."
+msgstr ""
 
 #: ../inc/custom-post-types.php:545
 msgid "speaker"
-msgstr "referent"
+msgstr ""
 
 #: ../inc/custom-post-types.php:546
 msgid "Add and edit speaker information"
-msgstr "Informationen zum Referenten anlegen und bearbeiten."
+msgstr ""
 
 #: ../inc/custom-post-types.php:588
 msgid "Speaker description"
-msgstr "Informationen zum Referenten"
+msgstr ""
 
 #: ../inc/custom-post-types.php:642
 msgid "Speaker information updated. "
-msgstr "Referent wurde aktualisiert."
+msgstr ""
 
 #: ../inc/custom-post-types.php:643
 msgid "Speaker information updated."
-msgstr "Referent wurde aktualisiert."
+msgstr ""
 
 #: ../inc/custom-post-types.php:644
 msgid "Speaker information deleted."
-msgstr "Referent gel&ouml;scht."
+msgstr ""
 
 #: ../inc/custom-post-types.php:645
 msgid "Speaker information published."
-msgstr "Referent wurde ver&ouml;ffentlicht."
+msgstr ""
 
 #: ../inc/custom-post-types.php:646
 msgid "Speaker information saved."
-msgstr "Referent wurde gespeichert."
+msgstr ""
 
 #: ../inc/widgets.php:13
 msgid "Area below the first sidebar menu"
-msgstr "Bereich unterhalb des Men&uuml;s links"
+msgstr ""
 
 #: ../inc/widgets.php:23
 msgid "Second sidebar"
-msgstr "Rechte Sidebar"
+msgstr ""
 
 #: ../inc/widgets.php:32
 msgid "Content Info"
-msgstr "Inhaltsinfo"
+msgstr ""
 
 #: ../inc/widgets.php:34
 msgid "Fixed content above the main content"
-msgstr "Feststehender Inhalt vor den eigentlichen Content"
+msgstr ""
 
 #: ../inc/widgets.php:45
 msgid "Additional info in footer area"
-msgstr "Zusatzinfo im Footer"
+msgstr ""
 
 #: ../inc/widgets.php:66
 msgid "FAU  Link List"
-msgstr "FAU-Linkliste"
+msgstr ""
 
 #: ../inc/widgets.php:66
 msgid "Link list with RRZE and FAU web services"
-msgstr "Linkliste mit verschiedenen Webangeboten des RRZE und der FAU"
+msgstr ""
 
 #: ../inc/widgets.php:156
 msgid "Choose Area"
-msgstr "Bereich ausw&auml;hlen"
+msgstr ""
 
 #: ../inc/widgets.php:177
 msgid "Banner/Logo Link"
-msgstr "Banner/Logo-Link"
+msgstr ""
 
 #: ../inc/widgets.php:177
 msgid "Add a linked logo or banner"
-msgstr "Logo- oder Bannerlink hinzuf&uuml;gen"
+msgstr ""
 
 #: ../inc/widgets.php:195
 msgid "Title:"
-msgstr "Titel:"
+msgstr ""
 
 #: ../inc/widgets.php:202
 msgid "Target URL:"
-msgstr "Ziel-URL:"
+msgstr ""
 
 #: ../inc/widgets.php:209
 msgid "Image URL:"
-msgstr "Bild-URL:"
+msgstr ""
 
 #: ../inc/widgets.php:219
 msgid "Upload / Choose"
-msgstr "Hochladen/Ausw&auml;hlen"
+msgstr ""
 
 #: ../inc/widgets.php:221
 msgid "Add a URL to the image or use the mediathek to upload or choose an image."
 msgstr ""
-"Geben Sie eine URL zu einem Bild ein oder verwenden Sie die Mediathek um es "
-"hochzuladen oder um ein vorhandenes Bild auszuw&auml;hlen."

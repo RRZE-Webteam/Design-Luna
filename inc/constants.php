@@ -73,21 +73,20 @@ $defaultoptions = array(
 	'teaser-datebox-halfwidth' => 1,
 	'teaser-floating-halfwidth' => 1,
 	'teaser-dateline-halfwidth' => 0, /* 1 = show Date on line up of the text if no datebox */
-	'headerbox-datum' => '20.03.<br />+ 21.03.',
-	'headerbox-ort' => 'Webkongress <br /> Erlangen <span class="jahr">2014</span>',
+	'headerbox-datum' => '01.03.-30.04.2020',
+	'headerbox-ort' => 'Friedrich-Alexander-Universität Erlangen-Nürnberg',
 	'text-startseite' => __('Home', 'luna'),
 	'default_text_title_home_backlink' => __('Back to Home page', 'luna'),
 	'default_footerlink_key' => 'Fakultaeten',
 	'aktiv-buttons' => 1,
 	'aktiv-anmeldebutton' => 1,
-	'url-anmeldebutton' => 'http://de.amiando.com/wke2014.html',
+	'url-anmeldebutton' => '#',
 	'title-anmeldebutton' => 'Tickets kaufen',
 	'color-anmeldebutton' => 'gruen',
 	'aktiv-cfpbutton' => 1,
 	'url-cfpbutton' => '/programm/vortragsvorschlag-einreichen-call-for-paper/',
 	'title-cfpbutton' => 'Vortrag einreichen',
 	'color-cfpbutton' => 'gelb',
-	'aktiv-slider' => 1,
 	'aktiv-registration-link' => 1,
 	'yt-alternativeembed' => 1,
 	/* YouTube Videos ueber eigenen Embedcode gestalten und an youtbe-nocookie lenken */
@@ -129,12 +128,12 @@ $default_socialmedia_liste = array(
 	),
 	'facebook_follow' => array(
 		'name' => 'Facebook',
-		'content' => 'https://www.facebook.com/pages/Webkongress-Erlangen',
+		'content' => '',
 		'active' => 1,
 	),
 	'twitter_follow' => array(
 		'name' => 'Twitter',
-		'content' => 'https://twitter.com/#!/wke',
+		'content' => 'https://twitter.com/',
 		'active' => 1,
 	),
 	'gplus' => array(
@@ -149,7 +148,7 @@ $default_socialmedia_liste = array(
 	),
 	'flickr' => array(
 		'name' => 'Flickr',
-		'content' => 'http://flickr.com/photos/tags/wke2010/',
+		'content' => 'http://flickr.com/',
 		'active' => 0,
 	),
 	'identica' => array(
@@ -288,12 +287,6 @@ $setoptions = array(
 					'title' => __('Show authors', 'luna'),
 					'label' => __('Show link to authors in articles', 'luna'),
 					'default' => $defaultoptions['aktiv-autoren'],
-				),
-				'aktiv-slider' => array(
-					'type' => 'bool',
-					'title' => __('Slider', 'luna'),
-					'label' => __('Use slider for content types (e.g. articles, events or speakers). See Help panel.', 'luna'),
-					'default' => $defaultoptions['aktiv-slider'],
 				),
 				'buttons' => array(
 					'type' => 'section',
@@ -575,25 +568,25 @@ $setoptions = array(
 			)
 		),
 		'Veranstaltungen' => array(
-			'tabtitle' => __('Events', 'luna'),
+			'tabtitle' => __('Talks', 'luna'),
 			'fields' => array(
-				'labels-event' => array(
+				'labels-talk' => array(
 					'type' => 'section',
-					'title' => __('Event label', 'luna'),
+					'title' => __('Talk label', 'luna'),
 				),
-				'label-event' => array(
+				'label-talk' => array(
 					'type' => 'text',
 					'title' => __('Singular', 'luna'),
-					'label' => __('Denotation of the events (e.g. Workshop, Course, Conference etc)', 'luna'),
-					'default' =>  __('Event','luna'),
-					'parent' => 'labels-event'
+					'label' => __('Denotation of the talks (e.g. Workshop, Course, Conference etc)', 'luna'),
+					'default' =>  __('Talk','luna'),
+					'parent' => 'labels-talk'
 				),
-				'label-event-pl' => array(
+				'label-talk-pl' => array(
 					'type' => 'text',
 					'title' => __('Plural', 'luna'),
-					'label' => __('Denotation of the events (e.g. Workshop, Course, Conference etc)', 'luna'),
-					'default' =>  __('Events','luna'),
-					'parent' => 'labels-event'
+					'label' => __('Denotation of the talks (e.g. Workshop, Course, Conference etc)', 'luna'),
+					'default' =>  __('Talks','luna'),
+					'parent' => 'labels-talk'
 				),
 				'labels-speaker' => array(
 					'type' => 'section',
@@ -620,69 +613,69 @@ $setoptions = array(
 				'label-short' => array(
 					'type' => 'text',
 					'title' => __('Label', 'luna'),
-					'label' => __('Denotation of the event code (e.g. Course Nr, ID etc)', 'luna'),
+					'label' => __('Denotation of the talk code (e.g. Course Nr, ID etc)', 'luna'),
 					'default' =>  __('Seminar Nr','luna'),
 					'parent' => 'labels-short'
 				),
-				'event-fields-table' => array(
+				'talk-fields-table' => array(
 					'type' => 'section',
-					'title' => __('Fields displayed in event overview table', 'luna'),
+					'title' => __('Fields displayed in talk overview table', 'luna'),
 				),
-				'event-table-date' => array(
+				'talk-table-date' => array(
 					'type' => 'bool',
 					'title' => __('Date', 'luna'),
-					'label' => __('Show event date', 'luna'),
+					'label' => __('Show talk date', 'luna'),
 					'default' => 1,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
-				'event-table-begin' => array(
+				'talk-table-begin' => array(
 					'type' => 'bool',
 					'title' => __('Start time', 'luna'),
-					'label' => __('Show start time of the event', 'luna'),
+					'label' => __('Show start time of the talk', 'luna'),
 					'default' => 1,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
-				'event-table-end' => array(
+				'talk-table-end' => array(
 					'type' => 'bool',
 					'title' => __('End time', 'luna'),
-					'label' => __('Show end time of the event', 'luna'),
+					'label' => __('Show end time of the talk', 'luna'),
 					'default' => 0,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
-				'event-table-location' => array(
+				'talk-table-location' => array(
 					'type' => 'bool',
 					'title' => __('Location', 'luna'),
-					'label' => __('Show event location', 'luna'),
+					'label' => __('Show talk location', 'luna'),
 					'default' => 1,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
-				'event-table-speaker' => array(
+				'talk-table-speaker' => array(
 					'type' => 'bool',
 					'title' => __('Speaker', 'luna'),
 					'label' => __('Show the speaker&rsquo;s name linked to his single page', 'luna'),
 					'default' => 1,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
-				'event-table-short' => array(
+				'talk-table-short' => array(
 					'type' => 'bool',
 					'title' => __('Code', 'luna'),
-					'label' => __('Show event code', 'luna'),
+					'label' => __('Show talk code', 'luna'),
 					'default' => 1,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
-				'event-table-participants' => array(
+				'talk-table-participants' => array(
 					'type' => 'bool',
 					'title' => __('Max. number of participants', 'luna'),
 					'label' => __('Show max. number of participants', 'luna'),
 					'default' => 0,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
-				'event-table-availible' => array(
+				'talk-table-availible' => array(
 					'type' => 'bool',
 					'title' => __('Places available', 'luna'),
 					'label' => __('Show number of places available', 'luna'),
 					'default' => 0,
-					'parent' => 'event-fields-table'
+					'parent' => 'talk-fields-table'
 				),
 				'registration-form' => array(
 					'type' => 'section',
@@ -691,7 +684,7 @@ $setoptions = array(
 				'aktiv-registration-link' => array(
 					'type' => 'bool',
 					'title' => __('Registration button', 'luna'),
-					'label' => __('Show registration button on single event view', 'luna'),
+					'label' => __('Show registration button on single talk view', 'luna'),
 					'default' => $defaultoptions['aktiv-registration-link'],
 					'parent' => 'registration-form'
 				),

@@ -22,7 +22,7 @@ if (have_posts())
 
 			<div class="post-entry">
 				<?php the_content(); ?>
-				<?php luna_speaker_event_list(); ?>
+				<?php luna_speaker_talk_list(); ?>
 			</div>
 
 			<?php

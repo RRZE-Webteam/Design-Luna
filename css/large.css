@@ -3,13 +3,12 @@
  *
  * Layout Stylesheet Luna
  *
- * @author          RRZE-Team, Barbara Bothe
- * @copyright       Copyright 2014, RRZE
+ * @author          RRZE-Team
  * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
  * @link            http://www.vorlagen.uni-erlangen.de
  * @package         css
- * @version         1.0
- * @lastmodified    09/2014
+ * @version         2.0
+ * @lastmodified    05/2016
 */
 @media screen and (min-width: 960px) {
   /*  ------------------------------------------------------
@@ -20,6 +19,9 @@
 
   #menu {
     padding-bottom: 0px; }
+
+  #toggle-sidebar {
+    display: none; }
 
   #sidebar {
     background-color: #FFFFFF;
@@ -33,7 +35,9 @@
     overflow-y: auto; }
 
   #content {
-    padding: 0 30px 30px; }
+    padding: 0 30px 30px;
+    width: auto;
+    float: none; }
 
   /*  ------------------------------------------------------
   MAIN

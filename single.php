@@ -33,7 +33,7 @@ if (have_posts())
 			));
 			?>
 
-			<?php if (('speaker' != get_post_type()) && ('event' != get_post_type())) { ?>
+			<?php if (('speaker' != get_post_type()) && ('talk' != get_post_type())) { ?>
 				<div class="post-meta">
 					<?php if ($options['aktiv-post-sm-buttons'])
 						luna_post_socialmedia_icons(); ?>
@@ -48,7 +48,7 @@ if (have_posts())
 						?>
 					</p>
 				</div>
-			<?php } elseif ((('speaker' == get_post_type()) || ('event' == get_post_type())) && (/*(get_the_tag_list()) ||*/ (is_object_in_taxonomy(get_post_type(), 'category')))) { ?>
+			<?php } elseif ((('speaker' == get_post_type()) || ('talk' == get_post_type())) && (/*(get_the_tag_list()) ||*/ (is_object_in_taxonomy(get_post_type(), 'category')))) { ?>
 				<div class="post-meta">
 					<p>
 						<?php luna_post_taxonominfo(); ?>
