@@ -1227,6 +1227,11 @@ SUB + SUP
         color: #fff;
         padding: 5px 7px 3px;
         letter-spacing: .05em; }
+    .wpcf7-form label {
+      display: inline-block;
+      width: 120px; }
+    .wpcf7-form .wpcf7-checkbox label {
+      width: auto; }
 
   .wpcf7-submit {
     padding: 5px 10px;

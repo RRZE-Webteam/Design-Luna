@@ -1262,6 +1262,13 @@ SUB + SUP
                 letter-spacing: .05em;
             }
         }
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+        .wpcf7-checkbox label {
+            width: auto;
+        }
     }
 
     .wpcf7-submit {

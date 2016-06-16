@@ -65,7 +65,8 @@ global $options;
                                         <a href="<?php echo home_url('/'); ?>" title="<?php echo $options['default_text_title_home_backlink']; ?>" rel="home" class="logo">
                                         <?php } ?>
                                         <?php
-                                        $logo = $options['headerbox-logo'];
+
+                                        $logo = array_key_exists('headerbox-logo', $options) ? $options['headerbox-logo'] : '';
                                         if (!empty($logo)) {
                                             ?>
                                             <img src="<?php echo $logo; ?>" alt="<?php bloginfo('name'); ?>">
