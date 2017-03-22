@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Luna (WP Theme)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:28+0100\n"
-"PO-Revision-Date: 2017-03-22 16:29+0100\n"
+"POT-Creation-Date: 2017-03-22 16:55+0100\n"
+"PO-Revision-Date: 2017-03-22 16:56+0100\n"
 "Last-Translator: Barbara Bothe <barbara.bothe@fau.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -1111,11 +1111,19 @@ msgstr "Artikel nach Schlagworten"
 msgid "Category List"
 msgstr "&Uuml;bersicht aller Kategorien"
 
-#: ../searchform.php:3
+#: ../searchform.php:2
+msgid "Search"
+msgstr "Suche"
+
+#: ../searchform.php:5
+msgid "Search:"
+msgstr "Suche:"
+
+#: ../searchform.php:6
 msgid "Search for..."
 msgstr "Suchen nach…"
 
-#: ../searchform.php:17
+#: ../searchform.php:7
 msgid "Find"
 msgstr "Finden"
 
