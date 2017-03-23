@@ -300,9 +300,7 @@ function luna_breadcrumbs() {
     if (!is_home() && !is_front_page() || is_paged()) {
         global $post;
         $homeLink = home_url('/');
-        echo '<div id="breadcrumb">';
-	echo '<h2>' . __('You are here:', 'luna') . '</h2>';
-	echo '<p>';
+        echo '<div id="breadcrumb"> <h2>' . __('You are here:', 'luna') . ' </h2></p>';
 	echo '<a href="' . $homeLink . '">' . $home . '</a> ' . $delimiter . ' ';
 
         if (is_category()) {
