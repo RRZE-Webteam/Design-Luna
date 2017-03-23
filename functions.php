@@ -300,10 +300,10 @@ function luna_breadcrumbs() {
     if (!is_home() && !is_front_page() || is_paged()) {
         global $post;
         $homeLink = home_url('/');
-        echo '<div id="breadcrumb">
-			<h2>Sie befinden sich hier: </h2>
-				<p>
-					<a href="' . $homeLink . '">' . $home . '</a> ' . $delimiter . ' ';
+        echo '<div id="breadcrumb">';
+	echo '<h2>' . __('You are here:', 'luna') . '</h2>';
+	echo '<p>';
+	echo '<a href="' . $homeLink . '">' . $home . '</a> ' . $delimiter . ' ';
 
         if (is_category()) {
             global $wp_query;
