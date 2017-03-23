@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Luna (WP Theme)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:55+0100\n"
-"PO-Revision-Date: 2017-03-22 16:56+0100\n"
+"POT-Creation-Date: 2017-03-23 14:21+0100\n"
+"PO-Revision-Date: 2017-03-23 14:22+0100\n"
 "Last-Translator: Barbara Bothe <barbara.bothe@fau.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -98,6 +98,10 @@ msgstr "Zielgruppenmen&uuml;"
 #: ../functions.php:146
 msgid "Tech Menu (Contact, Imprint etc.)"
 msgstr "Technische Navigation (Kontakt, Impressum etc.)"
+
+#: ../functions.php:304
+msgid "You are here:"
+msgstr "Sie befinden sich hier:"
 
 #: ../functions.php:369 ../functions.php:423
 msgid "Search for "
@@ -202,11 +206,11 @@ msgstr "Bitte w&auml;hlen..."
 
 #: ../functions.php:1589
 msgid "Accordion"
-msgstr ""
+msgstr "Accordion"
 
 #: ../functions.php:1608
 msgid "Slider"
-msgstr ""
+msgstr "Slider"
 
 #: ../functions.php:1630 ../inc/constants.php:571 ../inc/constants.php:588
 #: ../inc/custom-post-types.php:21
