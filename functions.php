@@ -209,7 +209,7 @@ function luna_compatibility($oldoptions) {
     if (!is_array($oldoptions)) {
         $oldoptions = array();
     }
-    $newoptions = array_merge($defaultoptions, $oldoptions);
+    $newoptions = array_merge((array) $defaultoptions, $oldoptions);
 
 
     return $newoptions;
