@@ -7,9 +7,9 @@
 // Register Custom Post Type
 function luna_talk_post_type() {
     global $options;
-    if (array_key_exists('label-talk-pl', $options) && $options['label-talk-pl'] !='') {
+    if (array_key_exists('label-talk-pl', (array) $options) && $options['label-talk-pl'] !='') {
         $slug_talk = strtolower(sanitize_title($options['label-talk-pl']));
-    } elseif (array_key_exists('label-talk', $options) && $options['label-talk'] !='') {
+    } elseif (array_key_exists('label-talk', (array) $options) && $options['label-talk'] !='') {
         $slug_talk = strtolower(sanitize_title($options['label-talk']));
     } else {
         $slug_talk = 'vortraege';
@@ -532,9 +532,9 @@ add_shortcode('talk', 'talk_shortcode');
 function luna_speaker_post_type() {
     global $options;
     
-    if (array_key_exists('label-speaker-pl', $options) && $options['label-speaker-pl'] !='') {
+    if (array_key_exists('label-speaker-pl', (array) $options) && $options['label-speaker-pl'] !='') {
         $slug_speaker = strtolower(sanitize_title($options['label-speaker-pl']));
-    } elseif (array_key_exists('label-speaker', $options) && $options['label-speaker'] !='') {
+    } elseif (array_key_exists('label-speaker', (array) $options) && $options['label-speaker'] !='') {
         $slug_speaker = strtolower(sanitize_title($options['label-speaker']));
     } else {
         $slug_speaker = 'referenten';
