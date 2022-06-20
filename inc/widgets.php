@@ -161,8 +161,7 @@ class FAULinkliste_Widget extends WP_Widget {
 // class  Linkliste Widget
 //
 // register widget
-add_action('widgets_init', create_function('', 'register_widget( "FAULinkliste_Widget" );'));
-
+add_action( 'widgets_init', function() { register_widget('FAULinkliste_Widget'); });
 /**
  * Adds Bannerlink_Widget widget.
  */
@@ -284,5 +283,4 @@ class Bannerlink_Widget extends WP_Widget {
 
 //
 // register widget
-add_action('widgets_init', create_function('', 'register_widget( "Bannerlink_Widget" );'));
-?>
+add_action( 'widgets_init', function() { register_widget( "Bannerlink_Widget" ); } );
